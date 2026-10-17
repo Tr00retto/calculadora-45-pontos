@@ -1,4 +1,4 @@
-"""Tabela comunitária da Wikipédia; consulta diária, sem chave ou dependências."""
+"""Tabela comunitária da Wikipédia; consulta periódica, sem chave ou dependências."""
 import json, os, re, sys, unicodedata, urllib.request
 from datetime import datetime, timezone
 from html.parser import HTMLParser
@@ -6,7 +6,7 @@ from pathlib import Path
 
 SOURCE='https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A'
 LICENSE='https://creativecommons.org/licenses/by-sa/4.0/'
-CLUBS={'flamengo':127,'palmeiras':121,'athletico paranaense':134,'fluminense':124,'bahia':118,'cruzeiro':135,'atletico mineiro':106,'santos':128,'red bull bragantino':794,'sao paulo':126,'coritiba':147,'vitoria':136,'botafogo':120,'mirassol':7848,'vasco da gama':133,'corinthians':131,'internacional':119,'gremio':130,'remo':1193,'chapecoense':132}
+CLUBS={'flamengo':127,'palmeiras':121,'athletico paranaense':134,'fluminense':124,'bahia':118,'cruzeiro':135,'atletico mineiro':1062,'santos':128,'red bull bragantino':794,'sao paulo':126,'coritiba':147,'vitoria':136,'botafogo':120,'mirassol':7848,'vasco da gama':133,'corinthians':131,'internacional':119,'gremio':130,'remo':1198,'chapecoense':132}
 
 def normalized(s):
     s=re.sub(r'\([^)]*\)|\[[^]]*\]','',s)
@@ -60,7 +60,7 @@ def make_data(html,previous):
 
 def main():
     path=Path('classificacao.json');previous=json.loads(path.read_text()) if path.exists() else {}
-    req=urllib.request.Request(SOURCE,headers={'User-Agent':'EsporteComValorStandings/1.0 (https://github.com/Tr00retto/calculadora-45-pontos; daily table update)','Accept':'text/html'})
+    req=urllib.request.Request(SOURCE,headers={'User-Agent':'EsporteComValorStandings/1.0 (https://github.com/Tr00retto/calculadora-45-pontos; periodic table update)','Accept':'text/html'})
     with urllib.request.urlopen(req,timeout=45) as res:
         if res.status!=200:raise ValueError('Falha HTTP '+str(res.status))
         html=res.read(5_000_001)

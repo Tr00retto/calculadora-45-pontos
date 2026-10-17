@@ -4,7 +4,7 @@ Calculadora de metas com escudos, modo manual e comparação de aproveitamento.
 
 ## Atualização automática gratuita
 
-A rotina `.github/workflows/atualizar.yml` consulta a tabela comunitária da Wikipédia uma vez ao dia, às 04h15 UTC (01h15 de Brasília). Também pode ser iniciada em Actions → Atualizar classificação e publicar → Run workflow. Não exige chave ou Secret da API-Sports. O Secret API_FOOTBALL_KEY pode ser removido pelo proprietário, pois não é utilizado.
+A rotina `.github/workflows/atualizar.yml` consulta a tabela comunitária da Wikipédia a cada 30 minutos, nos minutos 17 e 47, das 14h17 às 01h47 de Brasília (24 consultas por dia). Também pode ser iniciada em Actions → Atualizar classificação e publicar → Run workflow. Não exige chave ou Secret da API-Sports. O Secret API_FOOTBALL_KEY pode ser removido pelo proprietário, pois não é utilizado.
 
 Em Settings → Pages, Source deve ser GitHub Actions.
 
@@ -20,7 +20,7 @@ Histórico/autoria: https://pt.wikipedia.org/w/index.php?title=Campeonato_Brasil
 
 Tabela adaptada por extração e normalização dos pontos e jogos, atribuída aos colaboradores da Wikipédia e disponibilizada sob CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/ . A atribuição, a indicação de adaptação e a licença também aparecem no rodapé público e nos metadados do JSON. A licença da tabela não licencia os escudos dos clubes nem o código desta aplicação.
 
-Condições de reutilização verificadas nos Termos da Wikimedia: https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use . A rotina faz uma consulta diária identificada por User-Agent, sem login e sem contornar restrições. Não há garantia de disponibilidade ou atualização da fonte.
+Condições de reutilização verificadas nos Termos da Wikimedia: https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use . A rotina faz consultas espaçadas identificadas por User-Agent, sem login e sem contornar restrições. Não há garantia de disponibilidade ou atualização da fonte.
 
 ## Cálculos
 

@@ -1,7 +1,7 @@
 name: Atualizar classificação e publicar
 on:
   schedule:
-    - cron: '15 4 * * *'
+    - cron: '17,47 0-4,17-23 * * *'
   workflow_dispatch:
   push:
     branches: [main]
