@@ -29,17 +29,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Consultar classificação
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: node scripts/update-standings.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Consultar classificação pública
+        run: python scripts/update-standings.py
       - name: Salvar classificação validada
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add classificacao.json
           if ! git diff --cached --quiet; then
-            git commit -m "Atualiza classificação pela API-Sports"
+            git commit -m "Atualiza classificação pela fonte pública"
             git push
           fi
       - uses: actions/configure-pages@v5

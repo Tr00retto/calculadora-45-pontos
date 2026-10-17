@@ -1,29 +1,29 @@
 # Quanto falta? · Esporte com Valor
 
-Calculadora estática, sem dependências de instalação, para comparar aproveitamento atual e necessário para uma meta de pontos.
+Calculadora de metas com escudos, modo manual e comparação de aproveitamento.
 
-## Publicar
+## Atualização automática gratuita
 
-No GitHub, abra Settings → Pages. Em Build and deployment, escolha Deploy from a branch, branch `main`, pasta `/ (root)` e Save. Após a publicação, o endereço esperado é https://Tr00retto.github.io/calculadora-45-pontos/ .
+A rotina `.github/workflows/atualizar.yml` consulta a tabela comunitária da Wikipédia uma vez ao dia, às 04h15 UTC (01h15 de Brasília). Também pode ser iniciada em Actions → Atualizar classificação e publicar → Run workflow. Não exige chave ou Secret da API-Sports. O Secret API_FOOTBALL_KEY pode ser removido pelo proprietário, pois não é utilizado.
 
-## Recursos
+Em Settings → Pages, Source deve ser GitHub Actions.
 
-- Seleção por escudo dos 20 clubes; pontos e jogos preenchidos a partir do cadastro.
-- Entrada manual e meta configurável.
-- Aproveitamento, diferença em pontos percentuais, pontos restantes, máximo e projeção matemática.
-- Estados de meta alcançada, impossível e início/fim do campeonato.
-- Layout responsivo azul-escuro e dourado.
+O script Python usa somente a biblioteca padrão. Valida os 20 clubes, IDs únicos, pontos, jogos e consistência do total de partidas. Rejeita tabelas que reduzam jogos disputados em relação ao cadastro anterior. Se houver falha, o arquivo e a versão pública anteriores são preservados; a execução fica vermelha no Actions. A interface alerta quando a última consulta válida tem mais de 36 horas.
 
-## Atualizar dados
+Uma consulta bem-sucedida não garante que a comunidade atualizou todos os resultados. Não é um serviço em tempo real nem classificação oficial. Mudanças de formato, correções ou punições podem exigir revisão manual. A temporada está fixada em 2026 e deve ser atualizada para o campeonato seguinte.
 
-Edite o array `clubs` no final de `index.html`. Cada registro contém `[nome, pontos, jogos disputados, identificador da imagem API-Sports]`. Atualize também a data e fonte no rodapé e no texto de `origin`. O cadastro inicial é uma fotografia de 17/10/2026, 00h45, da página https://classificacaogeral.com.br/campeonato-brasileiro-serie-a/2026 . Não há atualização automática nem consulta ao vivo. Alterações pelo leitor são apenas simulações na página e não alteram o cadastro compartilhado.
+## Fonte e condições de reutilização
 
-As imagens externas dependem da disponibilidade do provedor. Os nomes permanecem acessíveis se as imagens falharem. Escudos pertencem aos respectivos clubes.
+Fonte: https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A
 
-## Método
+Histórico/autoria: https://pt.wikipedia.org/w/index.php?title=Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A&action=history
 
-Atual = pontos / (3 × jogos). Necessário = máximo(0, meta − pontos) / (3 × jogos restantes). Diferença = necessário − atual, em pontos percentuais. A referência de 45 pontos não garante permanência. A projeção não é uma previsão ou probabilidade.
+Tabela adaptada por extração e normalização dos pontos e jogos, atribuída aos colaboradores da Wikipédia e disponibilizada sob CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/ . A atribuição, a indicação de adaptação e a licença também aparecem no rodapé público e nos metadados do JSON. A licença da tabela não licencia os escudos dos clubes nem o código desta aplicação.
 
-## Validação
+Condições de reutilização verificadas nos Termos da Wikimedia: https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use . A rotina faz uma consulta diária identificada por User-Agent, sem login e sem contornar restrições. Não há garantia de disponibilidade ou atualização da fonte.
 
-Sintaxe JavaScript e oito verificações de cálculo: cenário 32 pontos/31 jogos, meta alcançada, campeonato encerrado, nenhum jogo, meta impossível, pontos incompatíveis com jogos, jogos acima do total e entrada fracionária.
+## Cálculos
+
+Atual = pontos / (3 × jogos disputados). Necessário = máximo(0, meta − pontos) / (3 × jogos restantes). Diferença em pontos percentuais. Os 45 pontos não garantem permanência. A projeção não é previsão nem probabilidade.
+
+Escudos incorporados ao HTML, originalmente fornecidos por API-Sports; pertencem aos respectivos clubes.
