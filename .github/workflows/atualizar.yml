@@ -8,6 +8,8 @@ on:
     paths:
       - index.html
       - classificacao.json
+      - projetor.html
+      - forma.json
       - scripts/**
       - .github/workflows/atualizar.yml
 permissions:
@@ -34,11 +36,13 @@ jobs:
           python-version: '3.12'
       - name: Consultar classificação pública
         run: python scripts/update-standings.py
-      - name: Salvar classificação validada
+      - name: Consultar forma do Brasileirão
+        run: python scripts/update-form.py
+      - name: Salvar classificação e forma validadas
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add classificacao.json
+          git add classificacao.json forma.json
           if ! git diff --cached --quiet; then
             git commit -m "Atualiza classificação pela fonte pública"
             git push
@@ -47,7 +51,7 @@ jobs:
       - name: Preparar site público
         run: |
           mkdir -p public
-          cp index.html classificacao.json public/
+          cp index.html classificacao.json projetor.html forma.json public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
