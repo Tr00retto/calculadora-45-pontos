@@ -8,6 +8,7 @@ on:
     paths:
       - index.html
       - classificacao.json
+      - termometro.html
       - projetor.html
       - forma.json
       - scripts/**
@@ -51,7 +52,7 @@ jobs:
       - name: Preparar site público
         run: |
           mkdir -p public
-          cp index.html classificacao.json projetor.html forma.json public/
+          cp index.html classificacao.json projetor.html termometro.html forma.json public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public

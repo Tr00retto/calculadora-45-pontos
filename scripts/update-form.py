@@ -33,7 +33,10 @@ def update(matches,previous):
         points=t['points']+sum(m['points'] for m in recent[:marker]);played=t['played']+marker
         if not 0<=played<=38 or not 0<=points<=3*played:raise ValueError('Classificação inconsistente')
         if sum(m['points'] for m in recent[:10])>points:raise ValueError('Resultados incompatíveis')
-        teams.append({**t,'points':points,'played':played,'recent':recent[:10],'lastMatchId':recent[0]['id'],'lastMatchDate':recent[0]['date']})
+        goals={}
+        if 'goalsFor' in t and 'goalsAgainst' in t:
+            goals={'goalsFor':t['goalsFor']+sum(m['hg'] if m['venue']=='Casa' else m['ag'] for m in recent[:marker]),'goalsAgainst':t['goalsAgainst']+sum(m['ag'] if m['venue']=='Casa' else m['hg'] for m in recent[:marker])}
+        teams.append({**t,**goals,'points':points,'played':played,'recent':recent[:10],'lastMatchId':recent[0]['id'],'lastMatchDate':recent[0]['date']})
     if len(teams)!=20 or len({t['id'] for t in teams})!=20:raise ValueError('Cadastro incompleto')
     return {**previous,'teams':teams,'fetchedAt':datetime.now(timezone.utc).isoformat(),'status':'updated'}
 def fetch(url):

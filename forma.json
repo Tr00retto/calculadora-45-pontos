@@ -140,7 +140,9 @@
           "venue": "Casa",
           "score": "2–0"
         }
-      ]
+      ],
+      "goalsFor": 58,
+      "goalsAgainst": 25
     },
     {
       "id": 121,
@@ -280,7 +282,9 @@
           "venue": "Fora",
           "score": "4–0"
         }
-      ]
+      ],
+      "goalsFor": 52,
+      "goalsAgainst": 22
     },
     {
       "id": 134,
@@ -420,7 +424,9 @@
           "venue": "Fora",
           "score": "0–0"
         }
-      ]
+      ],
+      "goalsFor": 49,
+      "goalsAgainst": 35
     },
     {
       "id": 124,
@@ -560,7 +566,9 @@
           "venue": "Casa",
           "score": "0–0"
         }
-      ]
+      ],
+      "goalsFor": 48,
+      "goalsAgainst": 37
     },
     {
       "id": 118,
@@ -700,7 +708,9 @@
           "venue": "Fora",
           "score": "0–0"
         }
-      ]
+      ],
+      "goalsFor": 44,
+      "goalsAgainst": 36
     },
     {
       "id": 135,
@@ -840,7 +850,9 @@
           "venue": "Fora",
           "score": "1–0"
         }
-      ]
+      ],
+      "goalsFor": 46,
+      "goalsAgainst": 44
     },
     {
       "id": 1062,
@@ -980,7 +992,9 @@
           "venue": "Fora",
           "score": "2–2"
         }
-      ]
+      ],
+      "goalsFor": 41,
+      "goalsAgainst": 35
     },
     {
       "id": 128,
@@ -1120,7 +1134,9 @@
           "venue": "Casa",
           "score": "0–2"
         }
-      ]
+      ],
+      "goalsFor": 46,
+      "goalsAgainst": 45
     },
     {
       "id": 794,
@@ -1260,7 +1276,9 @@
           "venue": "Casa",
           "score": "0–2"
         }
-      ]
+      ],
+      "goalsFor": 38,
+      "goalsAgainst": 35
     },
     {
       "id": 126,
@@ -1400,7 +1418,9 @@
           "venue": "Fora",
           "score": "1–2"
         }
-      ]
+      ],
+      "goalsFor": 35,
+      "goalsAgainst": 35
     },
     {
       "id": 147,
@@ -1540,7 +1560,9 @@
           "venue": "Casa",
           "score": "0–1"
         }
-      ]
+      ],
+      "goalsFor": 38,
+      "goalsAgainst": 48
     },
     {
       "id": 136,
@@ -1680,7 +1702,9 @@
           "venue": "Casa",
           "score": "0–4"
         }
-      ]
+      ],
+      "goalsFor": 33,
+      "goalsAgainst": 44
     },
     {
       "id": 120,
@@ -1820,7 +1844,9 @@
           "venue": "Casa",
           "score": "1–1"
         }
-      ]
+      ],
+      "goalsFor": 43,
+      "goalsAgainst": 48
     },
     {
       "id": 7848,
@@ -1960,7 +1986,9 @@
           "venue": "Casa",
           "score": "1–5"
         }
-      ]
+      ],
+      "goalsFor": 36,
+      "goalsAgainst": 44
     },
     {
       "id": 133,
@@ -2100,7 +2128,9 @@
           "venue": "Casa",
           "score": "1–1"
         }
-      ]
+      ],
+      "goalsFor": 36,
+      "goalsAgainst": 42
     },
     {
       "id": 131,
@@ -2240,7 +2270,9 @@
           "venue": "Casa",
           "score": "0–0"
         }
-      ]
+      ],
+      "goalsFor": 31,
+      "goalsAgainst": 38
     },
     {
       "id": 119,
@@ -2380,7 +2412,9 @@
           "venue": "Fora",
           "score": "0–0"
         }
-      ]
+      ],
+      "goalsFor": 33,
+      "goalsAgainst": 40
     },
     {
       "id": 130,
@@ -2520,7 +2554,9 @@
           "venue": "Casa",
           "score": "2–1"
         }
-      ]
+      ],
+      "goalsFor": 32,
+      "goalsAgainst": 40
     },
     {
       "id": 1198,
@@ -2660,7 +2696,9 @@
           "venue": "Fora",
           "score": "1–2"
         }
-      ]
+      ],
+      "goalsFor": 33,
+      "goalsAgainst": 48
     },
     {
       "id": 132,
@@ -2800,8 +2838,13 @@
           "venue": "Fora",
           "score": "2–2"
         }
-      ]
+      ],
+      "goalsFor": 30,
+      "goalsAgainst": 61
     }
   ],
-  "status": "updated"
+  "status": "updated",
+  "goalsSource": "Totais da Wikipédia até 12/10/2026 + resultados posteriores do Flashscore",
+  "goalsSourceUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A",
+  "goalsLicense": "CC BY-SA 4.0"
 }
