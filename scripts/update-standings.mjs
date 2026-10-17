@@ -5,7 +5,7 @@ export function normalize(body){
   let detail=JSON.stringify(body.errors);
   const key=process.env.API_FOOTBALL_KEY;
   if(key)detail=detail.split(key).join('[CHAVE OCULTA]');
-  detail=detail.replace(/[\\r\\n]/g,' ').slice(0,600);
+  detail=detail.split(String.fromCharCode(13)).join(' ').split(String.fromCharCode(10)).join(' ').slice(0,600);
   throw Error('Erro informado pela API-Sports: '+detail+'; classificação anterior preservada.');
  }
  const league=body.response?.[0]?.league;
