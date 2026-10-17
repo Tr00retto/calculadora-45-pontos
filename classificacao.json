@@ -1,9 +1,15 @@
 {
   "league": 71,
   "season": 2026,
-  "fetchedAt": null,
+  "fetchedAt": "2026-10-17T16:20:42.357367+00:00",
   "sourceUpdatedAt": null,
-  "source": "Cadastro manual de referência: 17/10/2026 00h45, Classificação Geral",
+  "source": "Wikipédia — colaboradores do artigo",
+  "sourceUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A",
+  "sourceHistoryUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A?action=history",
+  "sourceRevision": "73228891",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "notice": "Extração e normalização dos pontos e jogos da tabela comunitária. A data de consulta não garante atualização após cada partida.",
   "teams": [
     {
       "id": 127,
@@ -19,7 +25,7 @@
     },
     {
       "id": 134,
-      "name": "Athletico-PR",
+      "name": "Athletico Paranaense",
       "points": 53,
       "played": 30
     },
@@ -43,7 +49,7 @@
     },
     {
       "id": 106,
-      "name": "Atlético-MG",
+      "name": "Atlético Mineiro",
       "points": 47,
       "played": 30
     },
@@ -55,7 +61,7 @@
     },
     {
       "id": 794,
-      "name": "RB Bragantino",
+      "name": "Red Bull Bragantino",
       "points": 40,
       "played": 30
     },
@@ -91,7 +97,7 @@
     },
     {
       "id": 133,
-      "name": "Vasco",
+      "name": "Vasco da Gama",
       "points": 35,
       "played": 29
     },
