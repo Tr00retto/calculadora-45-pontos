@@ -1,6 +1,13 @@
 import {writeFile,rename} from 'node:fs/promises';
 export function normalize(body){
- if(!body||!body.errors||Object.keys(body.errors).length)throw Error('API retornou erro; classificação anterior preservada.');
+ if(!body||!body.errors)throw Error('Resposta inesperada da API; classificação anterior preservada.');
+ if(Object.keys(body.errors).length){
+  let detail=JSON.stringify(body.errors);
+  const key=process.env.API_FOOTBALL_KEY;
+  if(key)detail=detail.split(key).join('[CHAVE OCULTA]');
+  detail=detail.replace(/[\\r\\n]/g,' ').slice(0,600);
+  throw Error('Erro informado pela API-Sports: '+detail+'; classificação anterior preservada.');
+ }
  const league=body.response?.[0]?.league;
  if(league?.id!==71||league?.season!==2026)throw Error('Campeonato ou temporada inesperados.');
  const rows=league.standings?.[0];
