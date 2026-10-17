@@ -1,0 +1,129 @@
+{
+  "league": 71,
+  "season": 2026,
+  "fetchedAt": null,
+  "sourceUpdatedAt": null,
+  "source": "Cadastro manual de referência: 17/10/2026 00h45, Classificação Geral",
+  "teams": [
+    {
+      "id": 127,
+      "name": "Flamengo",
+      "points": 64,
+      "played": 30
+    },
+    {
+      "id": 121,
+      "name": "Palmeiras",
+      "points": 63,
+      "played": 30
+    },
+    {
+      "id": 134,
+      "name": "Athletico-PR",
+      "points": 53,
+      "played": 30
+    },
+    {
+      "id": 124,
+      "name": "Fluminense",
+      "points": 51,
+      "played": 30
+    },
+    {
+      "id": 118,
+      "name": "Bahia",
+      "points": 49,
+      "played": 30
+    },
+    {
+      "id": 135,
+      "name": "Cruzeiro",
+      "points": 48,
+      "played": 30
+    },
+    {
+      "id": 106,
+      "name": "Atlético-MG",
+      "points": 47,
+      "played": 30
+    },
+    {
+      "id": 128,
+      "name": "Santos",
+      "points": 42,
+      "played": 30
+    },
+    {
+      "id": 794,
+      "name": "RB Bragantino",
+      "points": 40,
+      "played": 30
+    },
+    {
+      "id": 126,
+      "name": "São Paulo",
+      "points": 39,
+      "played": 30
+    },
+    {
+      "id": 147,
+      "name": "Coritiba",
+      "points": 39,
+      "played": 30
+    },
+    {
+      "id": 136,
+      "name": "Vitória",
+      "points": 36,
+      "played": 30
+    },
+    {
+      "id": 120,
+      "name": "Botafogo",
+      "points": 36,
+      "played": 30
+    },
+    {
+      "id": 7848,
+      "name": "Mirassol",
+      "points": 36,
+      "played": 31
+    },
+    {
+      "id": 133,
+      "name": "Vasco",
+      "points": 35,
+      "played": 29
+    },
+    {
+      "id": 131,
+      "name": "Corinthians",
+      "points": 32,
+      "played": 30
+    },
+    {
+      "id": 119,
+      "name": "Internacional",
+      "points": 32,
+      "played": 31
+    },
+    {
+      "id": 130,
+      "name": "Grêmio",
+      "points": 31,
+      "played": 30
+    },
+    {
+      "id": 1193,
+      "name": "Remo",
+      "points": 25,
+      "played": 30
+    },
+    {
+      "id": 132,
+      "name": "Chapecoense",
+      "points": 18,
+      "played": 29
+    }
+  ]
+}
