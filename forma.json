@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T21:45:18.748231+00:00",
+  "fetchedAt": "2026-10-17T23:29:43.938560+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
@@ -1709,11 +1709,24 @@
     {
       "id": 120,
       "name": "Botafogo",
-      "points": 36,
-      "played": 30,
-      "lastMatchId": "OKIyMMkK",
-      "lastMatchDate": 1791831600000,
+      "points": 39,
+      "played": 31,
+      "lastMatchId": "IsfXAdsJ",
+      "lastMatchDate": 1792270800000,
       "recent": [
+        {
+          "id": "IsfXAdsJ",
+          "date": 1792270800000,
+          "home": "Botafogo",
+          "away": "Chapecoense",
+          "hg": 1,
+          "ag": 0,
+          "round": "",
+          "points": 3,
+          "opponent": "Chapecoense",
+          "venue": "Casa",
+          "score": "1–0"
+        },
         {
           "id": "OKIyMMkK",
           "date": 1791831600000,
@@ -1830,22 +1843,9 @@
           "opponent": "Vitória",
           "venue": "Fora",
           "score": "0–1"
-        },
-        {
-          "id": "EJGK1OTO",
-          "date": 1786233600000,
-          "home": "Botafogo",
-          "away": "Fluminense",
-          "hg": 1,
-          "ag": 1,
-          "round": "Rodada 22",
-          "points": 1,
-          "opponent": "Fluminense",
-          "venue": "Casa",
-          "score": "1–1"
         }
       ],
-      "goalsFor": 43,
+      "goalsFor": 44,
       "goalsAgainst": 48
     },
     {
@@ -2704,10 +2704,23 @@
       "id": 132,
       "name": "Chapecoense",
       "points": 18,
-      "played": 29,
-      "lastMatchId": "EkcGEvrf",
-      "lastMatchDate": 1791844200000,
+      "played": 30,
+      "lastMatchId": "IsfXAdsJ",
+      "lastMatchDate": 1792270800000,
       "recent": [
+        {
+          "id": "IsfXAdsJ",
+          "date": 1792270800000,
+          "home": "Botafogo",
+          "away": "Chapecoense",
+          "hg": 1,
+          "ag": 0,
+          "round": "",
+          "points": 0,
+          "opponent": "Botafogo",
+          "venue": "Fora",
+          "score": "0–1"
+        },
         {
           "id": "EkcGEvrf",
           "date": 1791844200000,
@@ -2824,23 +2837,10 @@
           "opponent": "Coritiba",
           "venue": "Fora",
           "score": "1–2"
-        },
-        {
-          "id": "UkF6bbHF",
-          "date": 1785015000000,
-          "home": "Santos",
-          "away": "Chapecoense",
-          "hg": 2,
-          "ag": 2,
-          "round": "",
-          "points": 1,
-          "opponent": "Santos",
-          "venue": "Fora",
-          "score": "2–2"
         }
       ],
       "goalsFor": 30,
-      "goalsAgainst": 61
+      "goalsAgainst": 62
     }
   ],
   "status": "updated",
