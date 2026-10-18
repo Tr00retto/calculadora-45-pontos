@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T01:33:28.974482+00:00",
+  "fetchedAt": "2026-10-18T06:37:34.718119+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
@@ -1283,11 +1283,24 @@
     {
       "id": 126,
       "name": "São Paulo",
-      "points": 39,
-      "played": 30,
-      "lastMatchId": "nHIhMVq3",
-      "lastMatchDate": 1791676800000,
+      "points": 42,
+      "played": 31,
+      "lastMatchId": "AysJYaZP",
+      "lastMatchDate": 1792281600000,
       "recent": [
+        {
+          "id": "AysJYaZP",
+          "date": 1792281600000,
+          "home": "São Paulo",
+          "away": "Vasco",
+          "hg": 1,
+          "ag": 0,
+          "round": "",
+          "points": 3,
+          "opponent": "Vasco",
+          "venue": "Casa",
+          "score": "1–0"
+        },
         {
           "id": "nHIhMVq3",
           "date": 1791676800000,
@@ -1404,22 +1417,9 @@
           "opponent": "Coritiba",
           "venue": "Casa",
           "score": "1–1"
-        },
-        {
-          "id": "ClHgE1DU",
-          "date": 1786215600000,
-          "home": "Grêmio",
-          "away": "São Paulo",
-          "hg": 2,
-          "ag": 1,
-          "round": "Rodada 22",
-          "points": 0,
-          "opponent": "Grêmio",
-          "venue": "Fora",
-          "score": "1–2"
         }
       ],
-      "goalsFor": 35,
+      "goalsFor": 36,
       "goalsAgainst": 35
     },
     {
@@ -1994,10 +1994,23 @@
       "id": 133,
       "name": "Vasco da Gama",
       "points": 35,
-      "played": 29,
-      "lastMatchId": "KAQ6bSid",
-      "lastMatchDate": 1791666000000,
+      "played": 30,
+      "lastMatchId": "AysJYaZP",
+      "lastMatchDate": 1792281600000,
       "recent": [
+        {
+          "id": "AysJYaZP",
+          "date": 1792281600000,
+          "home": "São Paulo",
+          "away": "Vasco",
+          "hg": 1,
+          "ag": 0,
+          "round": "",
+          "points": 0,
+          "opponent": "São Paulo",
+          "venue": "Fora",
+          "score": "0–1"
+        },
         {
           "id": "KAQ6bSid",
           "date": 1791666000000,
@@ -2114,23 +2127,10 @@
           "opponent": "Bahia",
           "venue": "Fora",
           "score": "0–0"
-        },
-        {
-          "id": "MPBb0Kn3",
-          "date": 1785022200000,
-          "home": "Vasco",
-          "away": "Mirassol",
-          "hg": 1,
-          "ag": 1,
-          "round": "",
-          "points": 1,
-          "opponent": "Mirassol",
-          "venue": "Casa",
-          "score": "1–1"
         }
       ],
       "goalsFor": 36,
-      "goalsAgainst": 42
+      "goalsAgainst": 43
     },
     {
       "id": 131,
