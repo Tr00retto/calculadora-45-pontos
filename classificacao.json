@@ -1,16 +1,22 @@
 {
   "league": 71,
   "season": 2026,
-  "fetchedAt": "2026-10-17T23:29:42.010350+00:00",
+  "fetchedAt": "2026-10-18T01:33:26.263915+00:00",
   "sourceUpdatedAt": null,
   "source": "Wikipédia — colaboradores do artigo",
   "sourceUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A",
   "sourceHistoryUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A?action=history",
-  "sourceRevision": "73235926",
+  "sourceRevision": "73236450",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
   "notice": "Extração e normalização dos pontos e jogos da tabela comunitária. A data de consulta não garante atualização após cada partida.",
   "teams": [
+    {
+      "id": 121,
+      "name": "Palmeiras",
+      "points": 66,
+      "played": 31
+    },
     {
       "id": 127,
       "name": "Flamengo",
@@ -18,16 +24,10 @@
       "played": 30
     },
     {
-      "id": 121,
-      "name": "Palmeiras",
-      "points": 63,
-      "played": 30
-    },
-    {
       "id": 134,
       "name": "Athletico Paranaense",
       "points": 53,
-      "played": 30
+      "played": 31
     },
     {
       "id": 124,

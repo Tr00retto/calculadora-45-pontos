@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T23:29:43.938560+00:00",
+  "fetchedAt": "2026-10-18T01:33:28.974482+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
@@ -147,11 +147,24 @@
     {
       "id": 121,
       "name": "Palmeiras",
-      "points": 63,
-      "played": 30,
-      "lastMatchId": "8W61K9EF",
-      "lastMatchDate": 1791750600000,
+      "points": 66,
+      "played": 31,
+      "lastMatchId": "hAPGswCt",
+      "lastMatchDate": 1792276200000,
       "recent": [
+        {
+          "id": "hAPGswCt",
+          "date": 1792276200000,
+          "home": "Athletico-PR",
+          "away": "Palmeiras",
+          "hg": 0,
+          "ag": 2,
+          "round": "Rodada 31",
+          "points": 3,
+          "opponent": "Athletico-PR",
+          "venue": "Fora",
+          "score": "2–0"
+        },
         {
           "id": "8W61K9EF",
           "date": 1791750600000,
@@ -268,32 +281,32 @@
           "opponent": "Internacional",
           "venue": "Casa",
           "score": "0–0"
-        },
-        {
-          "id": "lCVf7Sam",
-          "date": 1785371400000,
-          "home": "Vitória",
-          "away": "Palmeiras",
-          "hg": 0,
-          "ag": 4,
-          "round": "Rodada 21",
-          "points": 3,
-          "opponent": "Vitória",
-          "venue": "Fora",
-          "score": "4–0"
         }
       ],
-      "goalsFor": 52,
+      "goalsFor": 54,
       "goalsAgainst": 22
     },
     {
       "id": 134,
       "name": "Athletico Paranaense",
       "points": 53,
-      "played": 30,
-      "lastMatchId": "EkcGEvrf",
-      "lastMatchDate": 1791844200000,
+      "played": 31,
+      "lastMatchId": "hAPGswCt",
+      "lastMatchDate": 1792276200000,
       "recent": [
+        {
+          "id": "hAPGswCt",
+          "date": 1792276200000,
+          "home": "Athletico-PR",
+          "away": "Palmeiras",
+          "hg": 0,
+          "ag": 2,
+          "round": "Rodada 31",
+          "points": 0,
+          "opponent": "Palmeiras",
+          "venue": "Casa",
+          "score": "0–2"
+        },
         {
           "id": "EkcGEvrf",
           "date": 1791844200000,
@@ -410,23 +423,10 @@
           "opponent": "Santos",
           "venue": "Fora",
           "score": "2–0"
-        },
-        {
-          "id": "jJrlBy1L",
-          "date": 1785450600000,
-          "home": "Corinthians",
-          "away": "Athletico-PR",
-          "hg": 0,
-          "ag": 0,
-          "round": "Rodada 21",
-          "points": 1,
-          "opponent": "Corinthians",
-          "venue": "Fora",
-          "score": "0–0"
         }
       ],
       "goalsFor": 49,
-      "goalsAgainst": 35
+      "goalsAgainst": 37
     },
     {
       "id": 124,
@@ -857,11 +857,24 @@
     {
       "id": 1062,
       "name": "Atlético Mineiro",
-      "points": 47,
-      "played": 30,
-      "lastMatchId": "zaxs0uT0",
-      "lastMatchDate": 1791745200000,
+      "points": 50,
+      "played": 31,
+      "lastMatchId": "MyxaPedC",
+      "lastMatchDate": 1792272600000,
       "recent": [
+        {
+          "id": "MyxaPedC",
+          "date": 1792272600000,
+          "home": "Atlético-MG",
+          "away": "Coritiba",
+          "hg": 1,
+          "ag": 0,
+          "round": "Rodada 31",
+          "points": 3,
+          "opponent": "Coritiba",
+          "venue": "Casa",
+          "score": "1–0"
+        },
         {
           "id": "zaxs0uT0",
           "date": 1791745200000,
@@ -978,22 +991,9 @@
           "opponent": "Grêmio",
           "venue": "Casa",
           "score": "3–0"
-        },
-        {
-          "id": "IRwLUMcB",
-          "date": 1786224600000,
-          "home": "Remo",
-          "away": "Atlético-MG",
-          "hg": 2,
-          "ag": 2,
-          "round": "Rodada 22",
-          "points": 1,
-          "opponent": "Remo",
-          "venue": "Fora",
-          "score": "2–2"
         }
       ],
-      "goalsFor": 41,
+      "goalsFor": 42,
       "goalsAgainst": 35
     },
     {
@@ -1426,10 +1426,23 @@
       "id": 147,
       "name": "Coritiba",
       "points": 39,
-      "played": 30,
-      "lastMatchId": "OKIyMMkK",
-      "lastMatchDate": 1791831600000,
+      "played": 31,
+      "lastMatchId": "MyxaPedC",
+      "lastMatchDate": 1792272600000,
       "recent": [
+        {
+          "id": "MyxaPedC",
+          "date": 1792272600000,
+          "home": "Atlético-MG",
+          "away": "Coritiba",
+          "hg": 1,
+          "ag": 0,
+          "round": "Rodada 31",
+          "points": 0,
+          "opponent": "Atlético-MG",
+          "venue": "Fora",
+          "score": "0–1"
+        },
         {
           "id": "OKIyMMkK",
           "date": 1791831600000,
@@ -1546,23 +1559,10 @@
           "opponent": "Chapecoense",
           "venue": "Casa",
           "score": "2–1"
-        },
-        {
-          "id": "pt4NPzGE",
-          "date": 1785457800000,
-          "home": "Coritiba",
-          "away": "Cruzeiro",
-          "hg": 0,
-          "ag": 1,
-          "round": "Rodada 21",
-          "points": 0,
-          "opponent": "Cruzeiro",
-          "venue": "Casa",
-          "score": "0–1"
         }
       ],
       "goalsFor": 38,
-      "goalsAgainst": 48
+      "goalsAgainst": 49
     },
     {
       "id": 136,
