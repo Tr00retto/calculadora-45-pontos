@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T19:25:59.959709+00:00",
+  "fetchedAt": "2026-10-18T21:54:20.979261+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
@@ -432,10 +432,23 @@
       "id": 124,
       "name": "Fluminense",
       "points": 51,
-      "played": 30,
-      "lastMatchId": "OrXc0lNq",
-      "lastMatchDate": 1791750600000,
+      "played": 31,
+      "lastMatchId": "MF0OCIC6",
+      "lastMatchDate": 1792350000000,
       "recent": [
+        {
+          "id": "MF0OCIC6",
+          "date": 1792350000000,
+          "home": "Fluminense",
+          "away": "Santos",
+          "hg": 1,
+          "ag": 2,
+          "round": "Rodada 31",
+          "points": 0,
+          "opponent": "Santos",
+          "venue": "Casa",
+          "score": "1–2"
+        },
         {
           "id": "OrXc0lNq",
           "date": 1791750600000,
@@ -552,23 +565,10 @@
           "opponent": "Botafogo",
           "venue": "Fora",
           "score": "1–1"
-        },
-        {
-          "id": "6V8piG9k",
-          "date": 1785371400000,
-          "home": "Fluminense",
-          "away": "Bahia",
-          "hg": 0,
-          "ag": 0,
-          "round": "Rodada 21",
-          "points": 1,
-          "opponent": "Bahia",
-          "venue": "Casa",
-          "score": "0–0"
         }
       ],
-      "goalsFor": 48,
-      "goalsAgainst": 37
+      "goalsFor": 49,
+      "goalsAgainst": 39
     },
     {
       "id": 118,
@@ -696,17 +696,17 @@
           "score": "0–0"
         },
         {
-          "id": "6V8piG9k",
-          "date": 1785371400000,
-          "home": "Fluminense",
-          "away": "Bahia",
-          "hg": 0,
+          "id": "8lKX5FW9",
+          "date": 1784327400000,
+          "home": "Bahia",
+          "away": "Chapecoense",
+          "hg": 2,
           "ag": 0,
-          "round": "Rodada 21",
-          "points": 1,
-          "opponent": "Fluminense",
-          "venue": "Fora",
-          "score": "0–0"
+          "round": "",
+          "points": 3,
+          "opponent": "Chapecoense",
+          "venue": "Casa",
+          "score": "2–0"
         }
       ],
       "goalsFor": 44,
@@ -715,11 +715,24 @@
     {
       "id": 135,
       "name": "Cruzeiro",
-      "points": 48,
-      "played": 30,
-      "lastMatchId": "vXrY11bl",
-      "lastMatchDate": 1791849600000,
+      "points": 51,
+      "played": 31,
+      "lastMatchId": "U1u7NZQO",
+      "lastMatchDate": 1792350000000,
       "recent": [
+        {
+          "id": "U1u7NZQO",
+          "date": 1792350000000,
+          "home": "Grêmio",
+          "away": "Cruzeiro",
+          "hg": 2,
+          "ag": 4,
+          "round": "Rodada 31",
+          "points": 3,
+          "opponent": "Grêmio",
+          "venue": "Fora",
+          "score": "4–2"
+        },
         {
           "id": "vXrY11bl",
           "date": 1791849600000,
@@ -836,23 +849,10 @@
           "opponent": "Mirassol",
           "venue": "Casa",
           "score": "3–1"
-        },
-        {
-          "id": "pt4NPzGE",
-          "date": 1785457800000,
-          "home": "Coritiba",
-          "away": "Cruzeiro",
-          "hg": 0,
-          "ag": 1,
-          "round": "Rodada 21",
-          "points": 3,
-          "opponent": "Coritiba",
-          "venue": "Fora",
-          "score": "1–0"
         }
       ],
-      "goalsFor": 46,
-      "goalsAgainst": 44
+      "goalsFor": 50,
+      "goalsAgainst": 46
     },
     {
       "id": 1062,
@@ -999,11 +999,24 @@
     {
       "id": 128,
       "name": "Santos",
-      "points": 42,
-      "played": 30,
-      "lastMatchId": "zaxs0uT0",
-      "lastMatchDate": 1791745200000,
+      "points": 45,
+      "played": 31,
+      "lastMatchId": "MF0OCIC6",
+      "lastMatchDate": 1792350000000,
       "recent": [
+        {
+          "id": "MF0OCIC6",
+          "date": 1792350000000,
+          "home": "Fluminense",
+          "away": "Santos",
+          "hg": 1,
+          "ag": 2,
+          "round": "Rodada 31",
+          "points": 3,
+          "opponent": "Fluminense",
+          "venue": "Fora",
+          "score": "2–1"
+        },
         {
           "id": "zaxs0uT0",
           "date": 1791745200000,
@@ -1120,23 +1133,10 @@
           "opponent": "Vasco",
           "venue": "Fora",
           "score": "3–0"
-        },
-        {
-          "id": "UVjULREt",
-          "date": 1786311000000,
-          "home": "Santos",
-          "away": "Athletico-PR",
-          "hg": 0,
-          "ag": 2,
-          "round": "Rodada 22",
-          "points": 0,
-          "opponent": "Athletico-PR",
-          "venue": "Casa",
-          "score": "0–2"
         }
       ],
-      "goalsFor": 46,
-      "goalsAgainst": 45
+      "goalsFor": 48,
+      "goalsAgainst": 46
     },
     {
       "id": 794,
@@ -1690,17 +1690,17 @@
           "score": "0–2"
         },
         {
-          "id": "lCVf7Sam",
-          "date": 1785371400000,
+          "id": "80AlZsl4",
+          "date": 1784241000000,
           "home": "Vitória",
-          "away": "Palmeiras",
-          "hg": 0,
-          "ag": 4,
-          "round": "Rodada 21",
-          "points": 0,
-          "opponent": "Palmeiras",
+          "away": "Vasco",
+          "hg": 1,
+          "ag": 0,
+          "round": "",
+          "points": 3,
+          "opponent": "Vasco",
           "venue": "Casa",
-          "score": "0–4"
+          "score": "1–0"
         }
       ],
       "goalsFor": 33,
@@ -2420,10 +2420,23 @@
       "id": 130,
       "name": "Grêmio",
       "points": 31,
-      "played": 30,
-      "lastMatchId": "8CzkbJcD",
-      "lastMatchDate": 1791750600000,
+      "played": 31,
+      "lastMatchId": "U1u7NZQO",
+      "lastMatchDate": 1792350000000,
       "recent": [
+        {
+          "id": "U1u7NZQO",
+          "date": 1792350000000,
+          "home": "Grêmio",
+          "away": "Cruzeiro",
+          "hg": 2,
+          "ag": 4,
+          "round": "Rodada 31",
+          "points": 0,
+          "opponent": "Cruzeiro",
+          "venue": "Casa",
+          "score": "2–4"
+        },
         {
           "id": "8CzkbJcD",
           "date": 1791750600000,
@@ -2540,23 +2553,10 @@
           "opponent": "Atlético-MG",
           "venue": "Fora",
           "score": "0–3"
-        },
-        {
-          "id": "ClHgE1DU",
-          "date": 1786215600000,
-          "home": "Grêmio",
-          "away": "São Paulo",
-          "hg": 2,
-          "ag": 1,
-          "round": "Rodada 22",
-          "points": 3,
-          "opponent": "São Paulo",
-          "venue": "Casa",
-          "score": "2–1"
         }
       ],
-      "goalsFor": 32,
-      "goalsAgainst": 40
+      "goalsFor": 34,
+      "goalsAgainst": 44
     },
     {
       "id": 1198,
@@ -2684,17 +2684,17 @@
           "score": "2–2"
         },
         {
-          "id": "0hUJ5FOr",
-          "date": 1785364200000,
-          "home": "Mirassol",
+          "id": "d0XS2bjB",
+          "date": 1779053400000,
+          "home": "Chapecoense",
           "away": "Remo",
           "hg": 2,
-          "ag": 1,
-          "round": "Rodada 21",
-          "points": 0,
-          "opponent": "Mirassol",
+          "ag": 3,
+          "round": "",
+          "points": 3,
+          "opponent": "Chapecoense",
           "venue": "Fora",
-          "score": "1–2"
+          "score": "3–2"
         }
       ],
       "goalsFor": 33,

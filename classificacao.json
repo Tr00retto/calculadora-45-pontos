@@ -1,12 +1,12 @@
 {
   "league": 71,
   "season": 2026,
-  "fetchedAt": "2026-10-18T19:25:57.541331+00:00",
+  "fetchedAt": "2026-10-18T21:54:18.882154+00:00",
   "sourceUpdatedAt": null,
   "source": "Wikipédia — colaboradores do artigo",
   "sourceUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A",
   "sourceHistoryUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A?action=history",
-  "sourceRevision": "73236976",
+  "sourceRevision": "73241897",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
   "notice": "Extração e normalização dos pontos e jogos da tabela comunitária. A data de consulta não garante atualização após cada partida.",
@@ -30,10 +30,16 @@
       "played": 31
     },
     {
+      "id": 135,
+      "name": "Cruzeiro",
+      "points": 51,
+      "played": 31
+    },
+    {
       "id": 124,
       "name": "Fluminense",
       "points": 51,
-      "played": 30
+      "played": 31
     },
     {
       "id": 1062,
@@ -48,22 +54,16 @@
       "played": 30
     },
     {
-      "id": 135,
-      "name": "Cruzeiro",
-      "points": 48,
-      "played": 30
+      "id": 128,
+      "name": "Santos",
+      "points": 45,
+      "played": 31
     },
     {
       "id": 126,
       "name": "São Paulo",
       "points": 42,
       "played": 31
-    },
-    {
-      "id": 128,
-      "name": "Santos",
-      "points": 42,
-      "played": 30
     },
     {
       "id": 794,
@@ -117,7 +117,7 @@
       "id": 130,
       "name": "Grêmio",
       "points": 31,
-      "played": 30
+      "played": 31
     },
     {
       "id": 1198,
