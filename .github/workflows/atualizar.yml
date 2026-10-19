@@ -11,6 +11,10 @@ on:
       - termometro.html
       - projetor.html
       - forma.json
+      - raio-x.html
+      - raio-x.css
+      - raio-x.js
+      - raio-x.json
       - scripts/**
       - .github/workflows/atualizar.yml
 permissions:
@@ -39,11 +43,13 @@ jobs:
         run: python scripts/update-standings.py
       - name: Consultar forma do Brasileirão
         run: python scripts/update-form.py
+      - name: Consultar calendário e força dos adversários
+        run: python scripts/update-raiox.py
       - name: Salvar classificação e forma validadas
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add classificacao.json forma.json
+          git add classificacao.json forma.json raio-x.json
           if ! git diff --cached --quiet; then
             git commit -m "Atualiza classificação pela fonte pública"
             git push
@@ -52,7 +58,7 @@ jobs:
       - name: Preparar site público
         run: |
           mkdir -p public
-          cp index.html classificacao.json projetor.html termometro.html forma.json public/
+          cp index.html classificacao.json projetor.html termometro.html forma.json raio-x.html raio-x.css raio-x.js raio-x.json public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
