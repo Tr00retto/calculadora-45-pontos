@@ -1,27 +1,27 @@
 {
   "league": 71,
   "season": 2026,
-  "fetchedAt": "2026-10-18T21:54:18.882154+00:00",
+  "fetchedAt": "2026-10-19T00:13:05.084271+00:00",
   "sourceUpdatedAt": null,
   "source": "Wikipédia — colaboradores do artigo",
   "sourceUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A",
   "sourceHistoryUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A?action=history",
-  "sourceRevision": "73241897",
+  "sourceRevision": "73242624",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
   "notice": "Extração e normalização dos pontos e jogos da tabela comunitária. A data de consulta não garante atualização após cada partida.",
   "teams": [
     {
+      "id": 127,
+      "name": "Flamengo",
+      "points": 67,
+      "played": 31
+    },
+    {
       "id": 121,
       "name": "Palmeiras",
       "points": 66,
       "played": 31
-    },
-    {
-      "id": 127,
-      "name": "Flamengo",
-      "points": 64,
-      "played": 30
     },
     {
       "id": 134,
@@ -51,7 +51,7 @@
       "id": 118,
       "name": "Bahia",
       "points": 49,
-      "played": 30
+      "played": 31
     },
     {
       "id": 128,

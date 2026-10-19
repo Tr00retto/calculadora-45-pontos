@@ -1,15 +1,28 @@
 {
-  "fetchedAt": "2026-10-18T21:54:20.979261+00:00",
+  "fetchedAt": "2026-10-19T00:13:07.977126+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
       "id": 127,
       "name": "Flamengo",
-      "points": 64,
-      "played": 30,
-      "lastMatchId": "OrXc0lNq",
-      "lastMatchDate": 1791750600000,
+      "points": 67,
+      "played": 31,
+      "lastMatchId": "QNNOuHtg",
+      "lastMatchDate": 1792359000000,
       "recent": [
+        {
+          "id": "QNNOuHtg",
+          "date": 1792359000000,
+          "home": "Bahia",
+          "away": "Flamengo",
+          "hg": 0,
+          "ag": 3,
+          "round": "Rodada 31",
+          "points": 3,
+          "opponent": "Bahia",
+          "venue": "Fora",
+          "score": "3–0"
+        },
         {
           "id": "OrXc0lNq",
           "date": 1791750600000,
@@ -126,22 +139,9 @@
           "opponent": "Mirassol",
           "venue": "Fora",
           "score": "5–1"
-        },
-        {
-          "id": "IiNB3paC",
-          "date": 1786314600000,
-          "home": "Flamengo",
-          "away": "Vitória",
-          "hg": 2,
-          "ag": 0,
-          "round": "Rodada 22",
-          "points": 3,
-          "opponent": "Vitória",
-          "venue": "Casa",
-          "score": "2–0"
         }
       ],
-      "goalsFor": 58,
+      "goalsFor": 61,
       "goalsAgainst": 25
     },
     {
@@ -574,10 +574,23 @@
       "id": 118,
       "name": "Bahia",
       "points": 49,
-      "played": 30,
-      "lastMatchId": "hz97G0Ds",
-      "lastMatchDate": 1791757800000,
+      "played": 31,
+      "lastMatchId": "QNNOuHtg",
+      "lastMatchDate": 1792359000000,
       "recent": [
+        {
+          "id": "QNNOuHtg",
+          "date": 1792359000000,
+          "home": "Bahia",
+          "away": "Flamengo",
+          "hg": 0,
+          "ag": 3,
+          "round": "Rodada 31",
+          "points": 0,
+          "opponent": "Flamengo",
+          "venue": "Casa",
+          "score": "0–3"
+        },
         {
           "id": "hz97G0Ds",
           "date": 1791757800000,
@@ -694,23 +707,10 @@
           "opponent": "Vasco",
           "venue": "Casa",
           "score": "0–0"
-        },
-        {
-          "id": "8lKX5FW9",
-          "date": 1784327400000,
-          "home": "Bahia",
-          "away": "Chapecoense",
-          "hg": 2,
-          "ag": 0,
-          "round": "",
-          "points": 3,
-          "opponent": "Chapecoense",
-          "venue": "Casa",
-          "score": "2–0"
         }
       ],
       "goalsFor": 44,
-      "goalsAgainst": 36
+      "goalsAgainst": 39
     },
     {
       "id": 135,
