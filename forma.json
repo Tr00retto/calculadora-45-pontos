@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-19T00:13:07.977126+00:00",
+  "fetchedAt": "2026-10-19T04:44:21.412220+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
@@ -1141,11 +1141,24 @@
     {
       "id": 794,
       "name": "Red Bull Bragantino",
-      "points": 40,
-      "played": 30,
-      "lastMatchId": "vXrY11bl",
-      "lastMatchDate": 1791849600000,
+      "points": 41,
+      "played": 31,
+      "lastMatchId": "MkHXweB5",
+      "lastMatchDate": 1792362600000,
       "recent": [
+        {
+          "id": "MkHXweB5",
+          "date": 1792362600000,
+          "home": "Remo",
+          "away": "Red Bull Bragantino",
+          "hg": 1,
+          "ag": 1,
+          "round": "Rodada 31",
+          "points": 1,
+          "opponent": "Remo",
+          "venue": "Fora",
+          "score": "1–1"
+        },
         {
           "id": "vXrY11bl",
           "date": 1791849600000,
@@ -1262,23 +1275,10 @@
           "opponent": "Athletico-PR",
           "venue": "Fora",
           "score": "1–1"
-        },
-        {
-          "id": "r9PxIqE5",
-          "date": 1786311000000,
-          "home": "Red Bull Bragantino",
-          "away": "Corinthians",
-          "hg": 0,
-          "ag": 2,
-          "round": "Rodada 22",
-          "points": 0,
-          "opponent": "Corinthians",
-          "venue": "Casa",
-          "score": "0–2"
         }
       ],
-      "goalsFor": 38,
-      "goalsAgainst": 35
+      "goalsFor": 39,
+      "goalsAgainst": 36
     },
     {
       "id": 126,
@@ -2561,11 +2561,24 @@
     {
       "id": 1198,
       "name": "Remo",
-      "points": 25,
-      "played": 30,
-      "lastMatchId": "KAQ6bSid",
-      "lastMatchDate": 1791666000000,
+      "points": 26,
+      "played": 31,
+      "lastMatchId": "MkHXweB5",
+      "lastMatchDate": 1792362600000,
       "recent": [
+        {
+          "id": "MkHXweB5",
+          "date": 1792362600000,
+          "home": "Remo",
+          "away": "Red Bull Bragantino",
+          "hg": 1,
+          "ag": 1,
+          "round": "Rodada 31",
+          "points": 1,
+          "opponent": "Red Bull Bragantino",
+          "venue": "Casa",
+          "score": "1–1"
+        },
         {
           "id": "KAQ6bSid",
           "date": 1791666000000,
@@ -2682,23 +2695,10 @@
           "opponent": "Atlético-MG",
           "venue": "Casa",
           "score": "2–2"
-        },
-        {
-          "id": "d0XS2bjB",
-          "date": 1779053400000,
-          "home": "Chapecoense",
-          "away": "Remo",
-          "hg": 2,
-          "ag": 3,
-          "round": "",
-          "points": 3,
-          "opponent": "Chapecoense",
-          "venue": "Fora",
-          "score": "3–2"
         }
       ],
-      "goalsFor": 33,
-      "goalsAgainst": 48
+      "goalsFor": 34,
+      "goalsAgainst": 49
     },
     {
       "id": 132,
