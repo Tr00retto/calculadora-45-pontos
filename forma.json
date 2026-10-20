@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-20T00:41:14.260226+00:00",
+  "fetchedAt": "2026-10-20T05:21:15.138108+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
@@ -1567,11 +1567,24 @@
     {
       "id": 136,
       "name": "Vitória",
-      "points": 36,
-      "played": 30,
-      "lastMatchId": "nHIhMVq3",
-      "lastMatchDate": 1791676800000,
+      "points": 37,
+      "played": 31,
+      "lastMatchId": "hdprTwcm",
+      "lastMatchDate": 1792450800000,
       "recent": [
+        {
+          "id": "hdprTwcm",
+          "date": 1792450800000,
+          "home": "Corinthians",
+          "away": "Vitória",
+          "hg": 1,
+          "ag": 1,
+          "round": "Rodada 31",
+          "points": 1,
+          "opponent": "Corinthians",
+          "venue": "Fora",
+          "score": "1–1"
+        },
         {
           "id": "nHIhMVq3",
           "date": 1791676800000,
@@ -1688,23 +1701,10 @@
           "opponent": "Flamengo",
           "venue": "Fora",
           "score": "0–2"
-        },
-        {
-          "id": "80AlZsl4",
-          "date": 1784241000000,
-          "home": "Vitória",
-          "away": "Vasco",
-          "hg": 1,
-          "ag": 0,
-          "round": "",
-          "points": 3,
-          "opponent": "Vasco",
-          "venue": "Casa",
-          "score": "1–0"
         }
       ],
-      "goalsFor": 33,
-      "goalsAgainst": 44
+      "goalsFor": 34,
+      "goalsAgainst": 45
     },
     {
       "id": 120,
@@ -2135,11 +2135,24 @@
     {
       "id": 131,
       "name": "Corinthians",
-      "points": 32,
-      "played": 30,
-      "lastMatchId": "8W61K9EF",
-      "lastMatchDate": 1791750600000,
+      "points": 33,
+      "played": 31,
+      "lastMatchId": "hdprTwcm",
+      "lastMatchDate": 1792450800000,
       "recent": [
+        {
+          "id": "hdprTwcm",
+          "date": 1792450800000,
+          "home": "Corinthians",
+          "away": "Vitória",
+          "hg": 1,
+          "ag": 1,
+          "round": "Rodada 31",
+          "points": 1,
+          "opponent": "Vitória",
+          "venue": "Casa",
+          "score": "1–1"
+        },
         {
           "id": "8W61K9EF",
           "date": 1791750600000,
@@ -2256,23 +2269,10 @@
           "opponent": "Red Bull Bragantino",
           "venue": "Fora",
           "score": "2–0"
-        },
-        {
-          "id": "jJrlBy1L",
-          "date": 1785450600000,
-          "home": "Corinthians",
-          "away": "Athletico-PR",
-          "hg": 0,
-          "ag": 0,
-          "round": "Rodada 21",
-          "points": 1,
-          "opponent": "Athletico-PR",
-          "venue": "Casa",
-          "score": "0–0"
         }
       ],
-      "goalsFor": 31,
-      "goalsAgainst": 38
+      "goalsFor": 32,
+      "goalsAgainst": 39
     },
     {
       "id": 119,
