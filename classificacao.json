@@ -1,12 +1,12 @@
 {
   "league": 71,
   "season": 2026,
-  "fetchedAt": "2026-10-23T23:32:46.295048+00:00",
+  "fetchedAt": "2026-10-24T02:00:18.523287+00:00",
   "sourceUpdatedAt": null,
   "source": "Wikipédia — colaboradores do artigo",
   "sourceUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A",
   "sourceHistoryUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A?action=history",
-  "sourceRevision": "73257228",
+  "sourceRevision": "73278438",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
   "notice": "Extração e normalização dos pontos e jogos da tabela comunitária. A data de consulta não garante atualização após cada partida.",
@@ -24,15 +24,15 @@
       "played": 31
     },
     {
+      "id": 135,
+      "name": "Cruzeiro",
+      "points": 54,
+      "played": 32
+    },
+    {
       "id": 134,
       "name": "Athletico Paranaense",
       "points": 53,
-      "played": 31
-    },
-    {
-      "id": 135,
-      "name": "Cruzeiro",
-      "points": 51,
       "played": 31
     },
     {
@@ -123,7 +123,7 @@
       "id": 1198,
       "name": "Remo",
       "points": 26,
-      "played": 31
+      "played": 32
     },
     {
       "id": 132,

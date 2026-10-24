@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T23:32:48.265605+00:00",
+  "fetchedAt": "2026-10-24T02:00:21.998857+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
@@ -715,11 +715,24 @@
     {
       "id": 135,
       "name": "Cruzeiro",
-      "points": 51,
-      "played": 31,
-      "lastMatchId": "U1u7NZQO",
-      "lastMatchDate": 1792350000000,
+      "points": 54,
+      "played": 32,
+      "lastMatchId": "rRhmYPvp",
+      "lastMatchDate": 1792796400000,
       "recent": [
+        {
+          "id": "rRhmYPvp",
+          "date": 1792796400000,
+          "home": "Cruzeiro",
+          "away": "Remo",
+          "hg": 1,
+          "ag": 0,
+          "round": "Rodada 32",
+          "points": 3,
+          "opponent": "Remo",
+          "venue": "Casa",
+          "score": "1–0"
+        },
         {
           "id": "U1u7NZQO",
           "date": 1792350000000,
@@ -836,22 +849,9 @@
           "opponent": "Corinthians",
           "venue": "Fora",
           "score": "2–1"
-        },
-        {
-          "id": "4ODoGNrI",
-          "date": 1786284000000,
-          "home": "Cruzeiro",
-          "away": "Mirassol",
-          "hg": 3,
-          "ag": 1,
-          "round": "Rodada 22",
-          "points": 3,
-          "opponent": "Mirassol",
-          "venue": "Casa",
-          "score": "3–1"
         }
       ],
-      "goalsFor": 50,
+      "goalsFor": 51,
       "goalsAgainst": 46
     },
     {
@@ -2562,10 +2562,23 @@
       "id": 1198,
       "name": "Remo",
       "points": 26,
-      "played": 31,
-      "lastMatchId": "MkHXweB5",
-      "lastMatchDate": 1792362600000,
+      "played": 32,
+      "lastMatchId": "rRhmYPvp",
+      "lastMatchDate": 1792796400000,
       "recent": [
+        {
+          "id": "rRhmYPvp",
+          "date": 1792796400000,
+          "home": "Cruzeiro",
+          "away": "Remo",
+          "hg": 1,
+          "ag": 0,
+          "round": "Rodada 32",
+          "points": 0,
+          "opponent": "Cruzeiro",
+          "venue": "Fora",
+          "score": "0–1"
+        },
         {
           "id": "MkHXweB5",
           "date": 1792362600000,
@@ -2682,23 +2695,10 @@
           "opponent": "Internacional",
           "venue": "Fora",
           "score": "1–1"
-        },
-        {
-          "id": "IRwLUMcB",
-          "date": 1786224600000,
-          "home": "Remo",
-          "away": "Atlético-MG",
-          "hg": 2,
-          "ag": 2,
-          "round": "Rodada 22",
-          "points": 1,
-          "opponent": "Atlético-MG",
-          "venue": "Casa",
-          "score": "2–2"
         }
       ],
       "goalsFor": 34,
-      "goalsAgainst": 49
+      "goalsAgainst": 50
     },
     {
       "id": 132,
