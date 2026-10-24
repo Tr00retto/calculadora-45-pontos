@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T19:29:47.592457+00:00",
+  "fetchedAt": "2026-10-24T21:55:50.259698+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
@@ -289,11 +289,24 @@
     {
       "id": 134,
       "name": "Athletico Paranaense",
-      "points": 53,
-      "played": 31,
-      "lastMatchId": "hAPGswCt",
-      "lastMatchDate": 1792276200000,
+      "points": 54,
+      "played": 32,
+      "lastMatchId": "xpxjhoWF",
+      "lastMatchDate": 1792870200000,
       "recent": [
+        {
+          "id": "xpxjhoWF",
+          "date": 1792870200000,
+          "home": "Vitória",
+          "away": "Athletico-PR",
+          "hg": 1,
+          "ag": 1,
+          "round": "Rodada 32",
+          "points": 1,
+          "opponent": "Vitória",
+          "venue": "Fora",
+          "score": "1–1"
+        },
         {
           "id": "hAPGswCt",
           "date": 1792276200000,
@@ -410,23 +423,10 @@
           "opponent": "Red Bull Bragantino",
           "venue": "Casa",
           "score": "1–1"
-        },
-        {
-          "id": "UVjULREt",
-          "date": 1786311000000,
-          "home": "Santos",
-          "away": "Athletico-PR",
-          "hg": 0,
-          "ag": 2,
-          "round": "Rodada 22",
-          "points": 3,
-          "opponent": "Santos",
-          "venue": "Fora",
-          "score": "2–0"
         }
       ],
-      "goalsFor": 49,
-      "goalsAgainst": 37
+      "goalsFor": 50,
+      "goalsAgainst": 38
     },
     {
       "id": 124,
@@ -1283,11 +1283,24 @@
     {
       "id": 126,
       "name": "São Paulo",
-      "points": 42,
-      "played": 31,
-      "lastMatchId": "AysJYaZP",
-      "lastMatchDate": 1792281600000,
+      "points": 43,
+      "played": 32,
+      "lastMatchId": "lQzFjYfB",
+      "lastMatchDate": 1792870200000,
       "recent": [
+        {
+          "id": "lQzFjYfB",
+          "date": 1792870200000,
+          "home": "Mirassol",
+          "away": "São Paulo",
+          "hg": 1,
+          "ag": 1,
+          "round": "Rodada 32",
+          "points": 1,
+          "opponent": "Mirassol",
+          "venue": "Fora",
+          "score": "1–1"
+        },
         {
           "id": "AysJYaZP",
           "date": 1792281600000,
@@ -1404,23 +1417,10 @@
           "opponent": "Chapecoense",
           "venue": "Fora",
           "score": "0–1"
-        },
-        {
-          "id": "GM5oorrh",
-          "date": 1786838400000,
-          "home": "São Paulo",
-          "away": "Coritiba",
-          "hg": 1,
-          "ag": 1,
-          "round": "Rodada 23",
-          "points": 1,
-          "opponent": "Coritiba",
-          "venue": "Casa",
-          "score": "1–1"
         }
       ],
-      "goalsFor": 36,
-      "goalsAgainst": 35
+      "goalsFor": 37,
+      "goalsAgainst": 36
     },
     {
       "id": 147,
@@ -1567,11 +1567,24 @@
     {
       "id": 136,
       "name": "Vitória",
-      "points": 37,
-      "played": 31,
-      "lastMatchId": "hdprTwcm",
-      "lastMatchDate": 1792450800000,
+      "points": 38,
+      "played": 32,
+      "lastMatchId": "xpxjhoWF",
+      "lastMatchDate": 1792870200000,
       "recent": [
+        {
+          "id": "xpxjhoWF",
+          "date": 1792870200000,
+          "home": "Vitória",
+          "away": "Athletico-PR",
+          "hg": 1,
+          "ag": 1,
+          "round": "Rodada 32",
+          "points": 1,
+          "opponent": "Athletico-PR",
+          "venue": "Casa",
+          "score": "1–1"
+        },
         {
           "id": "hdprTwcm",
           "date": 1792450800000,
@@ -1688,32 +1701,32 @@
           "opponent": "Botafogo",
           "venue": "Casa",
           "score": "1–0"
-        },
-        {
-          "id": "IiNB3paC",
-          "date": 1786314600000,
-          "home": "Flamengo",
-          "away": "Vitória",
-          "hg": 2,
-          "ag": 0,
-          "round": "Rodada 22",
-          "points": 0,
-          "opponent": "Flamengo",
-          "venue": "Fora",
-          "score": "0–2"
         }
       ],
-      "goalsFor": 34,
-      "goalsAgainst": 45
+      "goalsFor": 35,
+      "goalsAgainst": 46
     },
     {
       "id": 120,
       "name": "Botafogo",
       "points": 39,
-      "played": 31,
-      "lastMatchId": "IsfXAdsJ",
-      "lastMatchDate": 1792270800000,
+      "played": 32,
+      "lastMatchId": "lOeeW39d",
+      "lastMatchDate": 1792870200000,
       "recent": [
+        {
+          "id": "lOeeW39d",
+          "date": 1792870200000,
+          "home": "Internacional",
+          "away": "Botafogo",
+          "hg": 3,
+          "ag": 0,
+          "round": "Rodada 32",
+          "points": 0,
+          "opponent": "Internacional",
+          "venue": "Fora",
+          "score": "0–3"
+        },
         {
           "id": "IsfXAdsJ",
           "date": 1792270800000,
@@ -1830,32 +1843,32 @@
           "opponent": "Athletico-PR",
           "venue": "Casa",
           "score": "2–3"
-        },
-        {
-          "id": "nqPYu8N9",
-          "date": 1786915800000,
-          "home": "Vitória",
-          "away": "Botafogo",
-          "hg": 1,
-          "ag": 0,
-          "round": "Rodada 23",
-          "points": 0,
-          "opponent": "Vitória",
-          "venue": "Fora",
-          "score": "0–1"
         }
       ],
       "goalsFor": 44,
-      "goalsAgainst": 48
+      "goalsAgainst": 51
     },
     {
       "id": 7848,
       "name": "Mirassol",
-      "points": 36,
-      "played": 31,
-      "lastMatchId": "0MmjRHRa",
-      "lastMatchDate": 1792191600000,
+      "points": 37,
+      "played": 32,
+      "lastMatchId": "lQzFjYfB",
+      "lastMatchDate": 1792870200000,
       "recent": [
+        {
+          "id": "lQzFjYfB",
+          "date": 1792870200000,
+          "home": "Mirassol",
+          "away": "São Paulo",
+          "hg": 1,
+          "ag": 1,
+          "round": "Rodada 32",
+          "points": 1,
+          "opponent": "São Paulo",
+          "venue": "Casa",
+          "score": "1–1"
+        },
         {
           "id": "0MmjRHRa",
           "date": 1792191600000,
@@ -1972,23 +1985,10 @@
           "opponent": "Santos",
           "venue": "Fora",
           "score": "1–1"
-        },
-        {
-          "id": "p2c2s0sH",
-          "date": 1786915800000,
-          "home": "Mirassol",
-          "away": "Flamengo",
-          "hg": 1,
-          "ag": 5,
-          "round": "Rodada 23",
-          "points": 0,
-          "opponent": "Flamengo",
-          "venue": "Casa",
-          "score": "1–5"
         }
       ],
-      "goalsFor": 36,
-      "goalsAgainst": 44
+      "goalsFor": 37,
+      "goalsAgainst": 45
     },
     {
       "id": 133,
@@ -2277,11 +2277,24 @@
     {
       "id": 119,
       "name": "Internacional",
-      "points": 32,
-      "played": 31,
-      "lastMatchId": "0MmjRHRa",
-      "lastMatchDate": 1792191600000,
+      "points": 35,
+      "played": 32,
+      "lastMatchId": "lOeeW39d",
+      "lastMatchDate": 1792870200000,
       "recent": [
+        {
+          "id": "lOeeW39d",
+          "date": 1792870200000,
+          "home": "Internacional",
+          "away": "Botafogo",
+          "hg": 3,
+          "ag": 0,
+          "round": "Rodada 32",
+          "points": 3,
+          "opponent": "Botafogo",
+          "venue": "Casa",
+          "score": "3–0"
+        },
         {
           "id": "0MmjRHRa",
           "date": 1792191600000,
@@ -2398,22 +2411,9 @@
           "opponent": "Remo",
           "venue": "Casa",
           "score": "1–1"
-        },
-        {
-          "id": "zqMUJ5qg",
-          "date": 1786302000000,
-          "home": "Palmeiras",
-          "away": "Internacional",
-          "hg": 0,
-          "ag": 0,
-          "round": "Rodada 22",
-          "points": 1,
-          "opponent": "Palmeiras",
-          "venue": "Fora",
-          "score": "0–0"
         }
       ],
-      "goalsFor": 33,
+      "goalsFor": 36,
       "goalsAgainst": 40
     },
     {
