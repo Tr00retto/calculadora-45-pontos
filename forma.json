@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-25T00:20:58.830488+00:00",
+  "fetchedAt": "2026-10-25T05:21:47.616676+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
@@ -432,10 +432,23 @@
       "id": 124,
       "name": "Fluminense",
       "points": 51,
-      "played": 31,
-      "lastMatchId": "MF0OCIC6",
-      "lastMatchDate": 1792350000000,
+      "played": 32,
+      "lastMatchId": "YBVbjP0S",
+      "lastMatchDate": 1792881000000,
       "recent": [
+        {
+          "id": "YBVbjP0S",
+          "date": 1792881000000,
+          "home": "Chapecoense",
+          "away": "Fluminense",
+          "hg": 2,
+          "ag": 1,
+          "round": "",
+          "points": 0,
+          "opponent": "Chapecoense",
+          "venue": "Fora",
+          "score": "1–2"
+        },
         {
           "id": "MF0OCIC6",
           "date": 1792350000000,
@@ -552,32 +565,32 @@
           "opponent": "Palmeiras",
           "venue": "Casa",
           "score": "3–2"
-        },
-        {
-          "id": "EJGK1OTO",
-          "date": 1786233600000,
-          "home": "Botafogo",
-          "away": "Fluminense",
-          "hg": 1,
-          "ag": 1,
-          "round": "Rodada 22",
-          "points": 1,
-          "opponent": "Botafogo",
-          "venue": "Fora",
-          "score": "1–1"
         }
       ],
-      "goalsFor": 49,
-      "goalsAgainst": 39
+      "goalsFor": 50,
+      "goalsAgainst": 41
     },
     {
       "id": 118,
       "name": "Bahia",
-      "points": 49,
-      "played": 31,
-      "lastMatchId": "QNNOuHtg",
-      "lastMatchDate": 1792359000000,
+      "points": 50,
+      "played": 32,
+      "lastMatchId": "KpqbfGen",
+      "lastMatchDate": 1792886400000,
       "recent": [
+        {
+          "id": "KpqbfGen",
+          "date": 1792886400000,
+          "home": "Santos",
+          "away": "Bahia",
+          "hg": 1,
+          "ag": 1,
+          "round": "Rodada 32",
+          "points": 1,
+          "opponent": "Santos",
+          "venue": "Fora",
+          "score": "1–1"
+        },
         {
           "id": "QNNOuHtg",
           "date": 1792359000000,
@@ -694,23 +707,10 @@
           "opponent": "Chapecoense",
           "venue": "Fora",
           "score": "3–3"
-        },
-        {
-          "id": "MapCWrTb",
-          "date": 1786302000000,
-          "home": "Bahia",
-          "away": "Vasco",
-          "hg": 0,
-          "ag": 0,
-          "round": "",
-          "points": 1,
-          "opponent": "Vasco",
-          "venue": "Casa",
-          "score": "0–0"
         }
       ],
-      "goalsFor": 44,
-      "goalsAgainst": 39
+      "goalsFor": 45,
+      "goalsAgainst": 40
     },
     {
       "id": 135,
@@ -999,11 +999,24 @@
     {
       "id": 128,
       "name": "Santos",
-      "points": 45,
-      "played": 31,
-      "lastMatchId": "MF0OCIC6",
-      "lastMatchDate": 1792350000000,
+      "points": 46,
+      "played": 32,
+      "lastMatchId": "KpqbfGen",
+      "lastMatchDate": 1792886400000,
       "recent": [
+        {
+          "id": "KpqbfGen",
+          "date": 1792886400000,
+          "home": "Santos",
+          "away": "Bahia",
+          "hg": 1,
+          "ag": 1,
+          "round": "Rodada 32",
+          "points": 1,
+          "opponent": "Bahia",
+          "venue": "Casa",
+          "score": "1–1"
+        },
         {
           "id": "MF0OCIC6",
           "date": 1792350000000,
@@ -1120,23 +1133,10 @@
           "opponent": "Mirassol",
           "venue": "Casa",
           "score": "1–1"
-        },
-        {
-          "id": "APIaNvjo",
-          "date": 1786906800000,
-          "home": "Vasco",
-          "away": "Santos",
-          "hg": 0,
-          "ag": 3,
-          "round": "",
-          "points": 3,
-          "opponent": "Vasco",
-          "venue": "Fora",
-          "score": "3–0"
         }
       ],
-      "goalsFor": 48,
-      "goalsAgainst": 46
+      "goalsFor": 49,
+      "goalsAgainst": 47
     },
     {
       "id": 794,
@@ -2703,11 +2703,24 @@
     {
       "id": 132,
       "name": "Chapecoense",
-      "points": 18,
-      "played": 30,
-      "lastMatchId": "IsfXAdsJ",
-      "lastMatchDate": 1792270800000,
+      "points": 21,
+      "played": 31,
+      "lastMatchId": "YBVbjP0S",
+      "lastMatchDate": 1792881000000,
       "recent": [
+        {
+          "id": "YBVbjP0S",
+          "date": 1792881000000,
+          "home": "Chapecoense",
+          "away": "Fluminense",
+          "hg": 2,
+          "ag": 1,
+          "round": "",
+          "points": 3,
+          "opponent": "Fluminense",
+          "venue": "Casa",
+          "score": "2–1"
+        },
         {
           "id": "IsfXAdsJ",
           "date": 1792270800000,
@@ -2824,23 +2837,10 @@
           "opponent": "Bahia",
           "venue": "Casa",
           "score": "3–3"
-        },
-        {
-          "id": "lnn4Y4bn",
-          "date": 1786231800000,
-          "home": "Coritiba",
-          "away": "Chapecoense",
-          "hg": 2,
-          "ag": 1,
-          "round": "",
-          "points": 0,
-          "opponent": "Coritiba",
-          "venue": "Fora",
-          "score": "1–2"
         }
       ],
-      "goalsFor": 30,
-      "goalsAgainst": 62
+      "goalsFor": 32,
+      "goalsAgainst": 63
     }
   ],
   "status": "updated",
