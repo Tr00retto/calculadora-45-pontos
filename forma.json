@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T21:55:50.259698+00:00",
+  "fetchedAt": "2026-10-25T00:20:58.830488+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
@@ -147,11 +147,24 @@
     {
       "id": 121,
       "name": "Palmeiras",
-      "points": 66,
-      "played": 31,
-      "lastMatchId": "hAPGswCt",
-      "lastMatchDate": 1792276200000,
+      "points": 69,
+      "played": 32,
+      "lastMatchId": "GCx7hfQb",
+      "lastMatchDate": 1792877400000,
       "recent": [
+        {
+          "id": "GCx7hfQb",
+          "date": 1792877400000,
+          "home": "Palmeiras",
+          "away": "Red Bull Bragantino",
+          "hg": 2,
+          "ag": 0,
+          "round": "Rodada 32",
+          "points": 3,
+          "opponent": "Red Bull Bragantino",
+          "venue": "Casa",
+          "score": "2–0"
+        },
         {
           "id": "hAPGswCt",
           "date": 1792276200000,
@@ -268,22 +281,9 @@
           "opponent": "Fluminense",
           "venue": "Fora",
           "score": "2–3"
-        },
-        {
-          "id": "zqMUJ5qg",
-          "date": 1786302000000,
-          "home": "Palmeiras",
-          "away": "Internacional",
-          "hg": 0,
-          "ag": 0,
-          "round": "Rodada 22",
-          "points": 1,
-          "opponent": "Internacional",
-          "venue": "Casa",
-          "score": "0–0"
         }
       ],
-      "goalsFor": 54,
+      "goalsFor": 56,
       "goalsAgainst": 22
     },
     {
@@ -1142,10 +1142,23 @@
       "id": 794,
       "name": "Red Bull Bragantino",
       "points": 41,
-      "played": 31,
-      "lastMatchId": "MkHXweB5",
-      "lastMatchDate": 1792362600000,
+      "played": 32,
+      "lastMatchId": "GCx7hfQb",
+      "lastMatchDate": 1792877400000,
       "recent": [
+        {
+          "id": "GCx7hfQb",
+          "date": 1792877400000,
+          "home": "Palmeiras",
+          "away": "Red Bull Bragantino",
+          "hg": 2,
+          "ag": 0,
+          "round": "Rodada 32",
+          "points": 0,
+          "opponent": "Palmeiras",
+          "venue": "Fora",
+          "score": "0–2"
+        },
         {
           "id": "MkHXweB5",
           "date": 1792362600000,
@@ -1262,23 +1275,10 @@
           "opponent": "Grêmio",
           "venue": "Casa",
           "score": "1–0"
-        },
-        {
-          "id": "vJLQsUhc",
-          "date": 1786829400000,
-          "home": "Athletico-PR",
-          "away": "Red Bull Bragantino",
-          "hg": 1,
-          "ag": 1,
-          "round": "Rodada 23",
-          "points": 1,
-          "opponent": "Athletico-PR",
-          "venue": "Fora",
-          "score": "1–1"
         }
       ],
       "goalsFor": 39,
-      "goalsAgainst": 36
+      "goalsAgainst": 38
     },
     {
       "id": 126,
@@ -1993,11 +1993,24 @@
     {
       "id": 133,
       "name": "Vasco da Gama",
-      "points": 35,
-      "played": 30,
-      "lastMatchId": "AysJYaZP",
-      "lastMatchDate": 1792281600000,
+      "points": 38,
+      "played": 31,
+      "lastMatchId": "jV8lzDAU",
+      "lastMatchDate": 1792877400000,
       "recent": [
+        {
+          "id": "jV8lzDAU",
+          "date": 1792877400000,
+          "home": "Vasco",
+          "away": "Corinthians",
+          "hg": 3,
+          "ag": 2,
+          "round": "",
+          "points": 3,
+          "opponent": "Corinthians",
+          "venue": "Casa",
+          "score": "3–2"
+        },
         {
           "id": "AysJYaZP",
           "date": 1792281600000,
@@ -2114,32 +2127,32 @@
           "opponent": "Santos",
           "venue": "Casa",
           "score": "0–3"
-        },
-        {
-          "id": "MapCWrTb",
-          "date": 1786302000000,
-          "home": "Bahia",
-          "away": "Vasco",
-          "hg": 0,
-          "ag": 0,
-          "round": "",
-          "points": 1,
-          "opponent": "Bahia",
-          "venue": "Fora",
-          "score": "0–0"
         }
       ],
-      "goalsFor": 36,
-      "goalsAgainst": 43
+      "goalsFor": 39,
+      "goalsAgainst": 45
     },
     {
       "id": 131,
       "name": "Corinthians",
       "points": 33,
-      "played": 31,
-      "lastMatchId": "hdprTwcm",
-      "lastMatchDate": 1792450800000,
+      "played": 32,
+      "lastMatchId": "jV8lzDAU",
+      "lastMatchDate": 1792877400000,
       "recent": [
+        {
+          "id": "jV8lzDAU",
+          "date": 1792877400000,
+          "home": "Vasco",
+          "away": "Corinthians",
+          "hg": 3,
+          "ag": 2,
+          "round": "",
+          "points": 0,
+          "opponent": "Vasco",
+          "venue": "Fora",
+          "score": "2–3"
+        },
         {
           "id": "hdprTwcm",
           "date": 1792450800000,
@@ -2256,23 +2269,10 @@
           "opponent": "Cruzeiro",
           "venue": "Casa",
           "score": "1–2"
-        },
-        {
-          "id": "r9PxIqE5",
-          "date": 1786311000000,
-          "home": "Red Bull Bragantino",
-          "away": "Corinthians",
-          "hg": 0,
-          "ag": 2,
-          "round": "Rodada 22",
-          "points": 3,
-          "opponent": "Red Bull Bragantino",
-          "venue": "Fora",
-          "score": "2–0"
         }
       ],
-      "goalsFor": 32,
-      "goalsAgainst": 39
+      "goalsFor": 34,
+      "goalsAgainst": 42
     },
     {
       "id": 119,

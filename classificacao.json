@@ -1,26 +1,26 @@
 {
   "league": 71,
   "season": 2026,
-  "fetchedAt": "2026-10-24T21:55:47.698323+00:00",
+  "fetchedAt": "2026-10-25T00:20:56.758829+00:00",
   "sourceUpdatedAt": null,
   "source": "Wikipédia — colaboradores do artigo",
   "sourceUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A",
   "sourceHistoryUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A?action=history",
-  "sourceRevision": "73284653",
+  "sourceRevision": "73285394",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
   "notice": "Extração e normalização dos pontos e jogos da tabela comunitária. A data de consulta não garante atualização após cada partida.",
   "teams": [
     {
+      "id": 121,
+      "name": "Palmeiras",
+      "points": 69,
+      "played": 32
+    },
+    {
       "id": 127,
       "name": "Flamengo",
       "points": 67,
-      "played": 31
-    },
-    {
-      "id": 121,
-      "name": "Palmeiras",
-      "points": 66,
       "played": 31
     },
     {
@@ -69,7 +69,7 @@
       "id": 794,
       "name": "Red Bull Bragantino",
       "points": 41,
-      "played": 31
+      "played": 32
     },
     {
       "id": 120,
@@ -81,6 +81,12 @@
       "id": 147,
       "name": "Coritiba",
       "points": 39,
+      "played": 31
+    },
+    {
+      "id": 133,
+      "name": "Vasco da Gama",
+      "points": 38,
       "played": 31
     },
     {
@@ -96,12 +102,6 @@
       "played": 32
     },
     {
-      "id": 133,
-      "name": "Vasco da Gama",
-      "points": 35,
-      "played": 30
-    },
-    {
       "id": 119,
       "name": "Internacional",
       "points": 35,
@@ -111,7 +111,7 @@
       "id": 131,
       "name": "Corinthians",
       "points": 33,
-      "played": 31
+      "played": 32
     },
     {
       "id": 130,
