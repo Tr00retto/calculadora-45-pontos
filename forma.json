@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T21:38:42.421861+00:00",
+  "fetchedAt": "2026-10-27T00:51:18.615137+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
@@ -1426,10 +1426,23 @@
       "id": 147,
       "name": "Coritiba",
       "points": 39,
-      "played": 31,
-      "lastMatchId": "MyxaPedC",
-      "lastMatchDate": 1792272600000,
+      "played": 32,
+      "lastMatchId": "UJYsf713",
+      "lastMatchDate": 1793053800000,
       "recent": [
+        {
+          "id": "UJYsf713",
+          "date": 1793053800000,
+          "home": "Coritiba",
+          "away": "Grêmio",
+          "hg": 0,
+          "ag": 1,
+          "round": "Rodada 32",
+          "points": 0,
+          "opponent": "Grêmio",
+          "venue": "Casa",
+          "score": "0–1"
+        },
         {
           "id": "MyxaPedC",
           "date": 1792272600000,
@@ -1546,23 +1559,10 @@
           "opponent": "São Paulo",
           "venue": "Fora",
           "score": "1–1"
-        },
-        {
-          "id": "lnn4Y4bn",
-          "date": 1786231800000,
-          "home": "Coritiba",
-          "away": "Chapecoense",
-          "hg": 2,
-          "ag": 1,
-          "round": "",
-          "points": 3,
-          "opponent": "Chapecoense",
-          "venue": "Casa",
-          "score": "2–1"
         }
       ],
       "goalsFor": 38,
-      "goalsAgainst": 49
+      "goalsAgainst": 50
     },
     {
       "id": 136,
@@ -2419,11 +2419,24 @@
     {
       "id": 130,
       "name": "Grêmio",
-      "points": 31,
-      "played": 31,
-      "lastMatchId": "U1u7NZQO",
-      "lastMatchDate": 1792350000000,
+      "points": 34,
+      "played": 32,
+      "lastMatchId": "UJYsf713",
+      "lastMatchDate": 1793053800000,
       "recent": [
+        {
+          "id": "UJYsf713",
+          "date": 1793053800000,
+          "home": "Coritiba",
+          "away": "Grêmio",
+          "hg": 0,
+          "ag": 1,
+          "round": "Rodada 32",
+          "points": 3,
+          "opponent": "Coritiba",
+          "venue": "Fora",
+          "score": "1–0"
+        },
         {
           "id": "U1u7NZQO",
           "date": 1792350000000,
@@ -2540,22 +2553,9 @@
           "opponent": "Red Bull Bragantino",
           "venue": "Fora",
           "score": "0–1"
-        },
-        {
-          "id": "tUjBuvCT",
-          "date": 1786906800000,
-          "home": "Atlético-MG",
-          "away": "Grêmio",
-          "hg": 3,
-          "ag": 0,
-          "round": "Rodada 23",
-          "points": 0,
-          "opponent": "Atlético-MG",
-          "venue": "Fora",
-          "score": "0–3"
         }
       ],
-      "goalsFor": 34,
+      "goalsFor": 35,
       "goalsAgainst": 44
     },
     {
