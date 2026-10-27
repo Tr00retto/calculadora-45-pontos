@@ -1,15 +1,28 @@
 {
-  "fetchedAt": "2026-10-27T00:51:18.615137+00:00",
+  "fetchedAt": "2026-10-27T06:17:38.975104+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
       "id": 127,
       "name": "Flamengo",
-      "points": 67,
-      "played": 31,
-      "lastMatchId": "QNNOuHtg",
-      "lastMatchDate": 1792359000000,
+      "points": 70,
+      "played": 32,
+      "lastMatchId": "UFKuxZuI",
+      "lastMatchDate": 1793055600000,
       "recent": [
+        {
+          "id": "UFKuxZuI",
+          "date": 1793055600000,
+          "home": "Flamengo",
+          "away": "Atlético-MG",
+          "hg": 3,
+          "ag": 2,
+          "round": "Rodada 32",
+          "points": 3,
+          "opponent": "Atlético-MG",
+          "venue": "Casa",
+          "score": "3–2"
+        },
         {
           "id": "QNNOuHtg",
           "date": 1792359000000,
@@ -126,23 +139,10 @@
           "opponent": "Cruzeiro",
           "venue": "Fora",
           "score": "1–2"
-        },
-        {
-          "id": "p2c2s0sH",
-          "date": 1786915800000,
-          "home": "Mirassol",
-          "away": "Flamengo",
-          "hg": 1,
-          "ag": 5,
-          "round": "Rodada 23",
-          "points": 3,
-          "opponent": "Mirassol",
-          "venue": "Fora",
-          "score": "5–1"
         }
       ],
-      "goalsFor": 61,
-      "goalsAgainst": 25
+      "goalsFor": 64,
+      "goalsAgainst": 27
     },
     {
       "id": 121,
@@ -858,10 +858,23 @@
       "id": 1062,
       "name": "Atlético Mineiro",
       "points": 50,
-      "played": 31,
-      "lastMatchId": "MyxaPedC",
-      "lastMatchDate": 1792272600000,
+      "played": 32,
+      "lastMatchId": "UFKuxZuI",
+      "lastMatchDate": 1793055600000,
       "recent": [
+        {
+          "id": "UFKuxZuI",
+          "date": 1793055600000,
+          "home": "Flamengo",
+          "away": "Atlético-MG",
+          "hg": 3,
+          "ag": 2,
+          "round": "Rodada 32",
+          "points": 0,
+          "opponent": "Flamengo",
+          "venue": "Fora",
+          "score": "2–3"
+        },
         {
           "id": "MyxaPedC",
           "date": 1792272600000,
@@ -978,23 +991,10 @@
           "opponent": "Internacional",
           "venue": "Fora",
           "score": "0–0"
-        },
-        {
-          "id": "tUjBuvCT",
-          "date": 1786906800000,
-          "home": "Atlético-MG",
-          "away": "Grêmio",
-          "hg": 3,
-          "ag": 0,
-          "round": "Rodada 23",
-          "points": 3,
-          "opponent": "Grêmio",
-          "venue": "Casa",
-          "score": "3–0"
         }
       ],
-      "goalsFor": 42,
-      "goalsAgainst": 35
+      "goalsFor": 44,
+      "goalsAgainst": 38
     },
     {
       "id": 128,
