@@ -7,6 +7,9 @@ on:
     branches: [main]
     paths:
       - index.html
+      - panorama.js
+      - panorama.css
+      - mudancas.json
       - classificacao.json
       - termometro.html
       - projetor.html
@@ -41,6 +44,8 @@ jobs:
           python-version: '3.12'
       - name: Consultar classificação pública
         run: python scripts/update-standings.py
+      - name: Registrar comparação diária
+        run: python scripts/update-day.py
       - name: Consultar forma do Brasileirão
         run: python scripts/update-form.py
       - name: Consultar calendário e força dos adversários
@@ -49,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add classificacao.json forma.json raio-x.json
+          git add classificacao.json forma.json raio-x.json mudancas.json
           if ! git diff --cached --quiet; then
             git commit -m "Atualiza classificação pela fonte pública"
             git push
@@ -58,10 +63,11 @@ jobs:
       - name: Preparar site público
         run: |
           mkdir -p public
-          cp index.html classificacao.json projetor.html termometro.html forma.json raio-x.html raio-x.css raio-x.js raio-x.json public/
+          cp panorama.js panorama.css mudancas.json index.html classificacao.json projetor.html termometro.html forma.json raio-x.html raio-x.css raio-x.js raio-x.json public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
       - name: Publicar site
         id: deployment
         uses: actions/deploy-pages@v4
+
