@@ -1,12 +1,12 @@
 {
   "league": 71,
   "season": 2026,
-  "fetchedAt": "2026-10-28T21:39:36.302773+00:00",
+  "fetchedAt": "2026-10-29T01:15:16.122298+00:00",
   "sourceUpdatedAt": null,
   "source": "Wikipédia — colaboradores do artigo",
   "sourceUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A",
   "sourceHistoryUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A?action=history",
-  "sourceRevision": "73308978",
+  "sourceRevision": "73314733",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
   "notice": "Extração e normalização dos pontos e jogos da tabela comunitária. A data de consulta não garante atualização após cada partida.",
@@ -20,8 +20,8 @@
     {
       "id": 121,
       "name": "Palmeiras",
-      "points": 69,
-      "played": 32
+      "points": 70,
+      "played": 33
     },
     {
       "id": 135,
@@ -38,8 +38,8 @@
     {
       "id": 124,
       "name": "Fluminense",
-      "points": 51,
-      "played": 32
+      "points": 54,
+      "played": 33
     },
     {
       "id": 1062,
@@ -56,19 +56,19 @@
     {
       "id": 128,
       "name": "Santos",
-      "points": 46,
-      "played": 32
+      "points": 47,
+      "played": 33
+    },
+    {
+      "id": 794,
+      "name": "Red Bull Bragantino",
+      "points": 44,
+      "played": 33
     },
     {
       "id": 126,
       "name": "São Paulo",
       "points": 43,
-      "played": 32
-    },
-    {
-      "id": 794,
-      "name": "Red Bull Bragantino",
-      "points": 41,
       "played": 32
     },
     {
@@ -105,7 +105,7 @@
       "id": 119,
       "name": "Internacional",
       "points": 35,
-      "played": 32
+      "played": 33
     },
     {
       "id": 130,
@@ -129,7 +129,7 @@
       "id": 132,
       "name": "Chapecoense",
       "points": 21,
-      "played": 31
+      "played": 32
     }
   ]
 }
