@@ -1,12 +1,12 @@
 {
   "league": 71,
   "season": 2026,
-  "fetchedAt": "2026-10-29T02:54:12.996991+00:00",
+  "fetchedAt": "2026-10-29T07:11:16.468781+00:00",
   "sourceUpdatedAt": null,
   "source": "Wikipédia — colaboradores do artigo",
   "sourceUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A",
   "sourceHistoryUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A?action=history",
-  "sourceRevision": "73314733",
+  "sourceRevision": "73315853",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
   "notice": "Extração e normalização dos pontos e jogos da tabela comunitária. A data de consulta não garante atualização após cada partida.",
@@ -42,14 +42,14 @@
       "played": 33
     },
     {
-      "id": 1062,
-      "name": "Atlético Mineiro",
-      "points": 50,
-      "played": 32
-    },
-    {
       "id": 118,
       "name": "Bahia",
+      "points": 53,
+      "played": 33
+    },
+    {
+      "id": 1062,
+      "name": "Atlético Mineiro",
       "points": 50,
       "played": 32
     },
@@ -69,13 +69,13 @@
       "id": 126,
       "name": "São Paulo",
       "points": 43,
-      "played": 32
+      "played": 33
     },
     {
       "id": 120,
       "name": "Botafogo",
       "points": 39,
-      "played": 32
+      "played": 33
     },
     {
       "id": 147,
@@ -122,8 +122,8 @@
     {
       "id": 1198,
       "name": "Remo",
-      "points": 26,
-      "played": 32
+      "points": 29,
+      "played": 33
     },
     {
       "id": 132,
