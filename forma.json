@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T01:58:16.029141+00:00",
+  "fetchedAt": "2026-10-30T08:40:34.726500+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
@@ -290,10 +290,23 @@
       "id": 134,
       "name": "Athletico Paranaense",
       "points": 54,
-      "played": 32,
-      "lastMatchId": "xpxjhoWF",
-      "lastMatchDate": 1792870200000,
+      "played": 33,
+      "lastMatchId": "MBACeKx8",
+      "lastMatchDate": 1793320200000,
       "recent": [
+        {
+          "id": "MBACeKx8",
+          "date": 1793320200000,
+          "home": "Grêmio",
+          "away": "Athletico-PR",
+          "hg": 2,
+          "ag": 0,
+          "round": "Rodada 33",
+          "points": 0,
+          "opponent": "Grêmio",
+          "venue": "Fora",
+          "score": "0–2"
+        },
         {
           "id": "xpxjhoWF",
           "date": 1792870200000,
@@ -410,23 +423,10 @@
           "opponent": "Botafogo",
           "venue": "Fora",
           "score": "3–2"
-        },
-        {
-          "id": "fLt2NVW1",
-          "date": 1778455800000,
-          "home": "Vasco",
-          "away": "Athletico-PR",
-          "hg": 1,
-          "ag": 0,
-          "round": "",
-          "points": 0,
-          "opponent": "Vasco",
-          "venue": "Fora",
-          "score": "0–1"
         }
       ],
       "goalsFor": 50,
-      "goalsAgainst": 38
+      "goalsAgainst": 40
     },
     {
       "id": 124,
@@ -2419,11 +2419,24 @@
     {
       "id": 130,
       "name": "Grêmio",
-      "points": 34,
-      "played": 32,
-      "lastMatchId": "UJYsf713",
-      "lastMatchDate": 1793053800000,
+      "points": 37,
+      "played": 33,
+      "lastMatchId": "MBACeKx8",
+      "lastMatchDate": 1793320200000,
       "recent": [
+        {
+          "id": "MBACeKx8",
+          "date": 1793320200000,
+          "home": "Grêmio",
+          "away": "Athletico-PR",
+          "hg": 2,
+          "ag": 0,
+          "round": "Rodada 33",
+          "points": 3,
+          "opponent": "Athletico-PR",
+          "venue": "Casa",
+          "score": "2–0"
+        },
         {
           "id": "UJYsf713",
           "date": 1793053800000,
@@ -2540,22 +2553,9 @@
           "opponent": "Chapecoense",
           "venue": "Casa",
           "score": "3–1"
-        },
-        {
-          "id": "h4Stzwil",
-          "date": 1787511600000,
-          "home": "Red Bull Bragantino",
-          "away": "Grêmio",
-          "hg": 1,
-          "ag": 0,
-          "round": "Rodada 24",
-          "points": 0,
-          "opponent": "Red Bull Bragantino",
-          "venue": "Fora",
-          "score": "0–1"
         }
       ],
-      "goalsFor": 35,
+      "goalsFor": 37,
       "goalsAgainst": 44
     },
     {
