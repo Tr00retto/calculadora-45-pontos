@@ -1,5 +1,5 @@
 """Relógio dos gols: eventos finais ESPN, minutos e placares conferidos por partida."""
-import importlib.util, json, os, re, sys, urllib.request
+import importlib.util, json, math, os, re, sys, urllib.request
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -24,6 +24,19 @@ def club_id(competitor):
     if key not in s.CLUBS:raise ValueError('Clube desconhecido: '+name)
     return s.CLUBS[key]
 
+def first_goal(events):
+    """Identifica o beneficiário do primeiro gol sem confiar na ordem da lista."""
+    if not events:return {'firstScorer':None,'firstGoalStatus':'goalless'}
+    def minute_key(goal):
+        parts=goal['minute'].split('+');return (int(parts[0]),int(parts[1]) if len(parts)>1 else 0)
+    first=min(minute_key(g) for g in events)
+    candidates=[g for g in events if minute_key(g)==first]
+    # Só usa os segundos para desempatar gols no mesmo minuto quando todos os têm.
+    if all(isinstance(g.get('seconds'),(int,float)) and math.isfinite(g['seconds']) and g['seconds']>=0 for g in candidates):
+        seconds=min(g['seconds'] for g in candidates);candidates=[g for g in candidates if g['seconds']==seconds]
+    teams={g['team'] for g in candidates}
+    return {'firstScorer':next(iter(teams)) if len(teams)==1 else None,'firstGoalStatus':'known' if len(teams)==1 else 'ambiguous'}
+
 def parse_match(event,competition):
     competitors=competition['competitors']
     if len(competitors)!=2:raise ValueError('Adversários inválidos')
@@ -32,7 +45,7 @@ def parse_match(event,competition):
     if len(set(ids.values()))!=2:raise ValueError('Clube duplicado')
     scores={str(c['id']):int(c['score']) for c in competitors}
     if any(n<0 or n>30 for n in scores.values()):raise ValueError('Placar inválido')
-    goals=[]
+    goals=[];ordered=[]
     for detail in competition.get('details',[]):
         if not detail.get('scoringPlay') or detail.get('shootout'):continue
         if detail.get('scoreValue')!=1:raise ValueError('Evento sem valor de gol válido')
@@ -41,13 +54,14 @@ def parse_match(event,competition):
         team=str(detail['team']['id'])
         if team not in ids:raise ValueError('Beneficiário desconhecido')
         bucket,minute=minute_bin(detail['clock']['displayValue'])
-        goals.append({'team':ids[team],'minute':minute,'bin':bucket})
+        goal={'team':ids[team],'minute':minute,'bin':bucket}
+        goals.append(goal);ordered.append({**goal,'seconds':detail['clock'].get('value')})
     counted=Counter(g['team'] for g in goals)
     if any(counted[ids[team]]!=score for team,score in scores.items()):raise ValueError('Gols não conferem com o placar')
     date=event['date']
     parsed=datetime.fromisoformat(date.replace('Z','+00:00'))
     if parsed.year!=2026 or parsed>datetime.now(timezone.utc):raise ValueError('Data fora da temporada')
-    return {'id':str(event['id']),'date':date,'home':ids[str(home['id'])],'away':ids[str(away['id'])],'hg':scores[str(home['id'])],'ag':scores[str(away['id'])],'goals':goals}
+    return {'id':str(event['id']),'date':date,'home':ids[str(home['id'])],'away':ids[str(away['id'])],'hg':scores[str(home['id'])],'ag':scores[str(away['id'])],'goals':goals,**first_goal(ordered)}
 
 def collect(payload):
     if not any(str(l.get('id'))=='630' for l in payload.get('leagues',[])):raise ValueError('Competição incorreta')
