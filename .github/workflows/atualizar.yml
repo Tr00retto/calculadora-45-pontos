@@ -9,6 +9,8 @@ on:
       - index.html
       - panorama.js
       - panorama.css
+      - comparador-periodos.js
+      - comparador-periodos.css
       - viradas-reacoes.js
       - viradas-reacoes.css
       - relogio-gols.js
@@ -55,6 +57,8 @@ jobs:
           node tests/test_goal_clock.js
           node --check viradas-reacoes.js
           node tests/test_reactions.js
+          node --check comparador-periodos.js
+          node tests/test_periods.js
       - name: Consultar classificação pública
         run: python scripts/update-standings.py
       - name: Consultar forma do Brasileirão
@@ -80,7 +84,7 @@ jobs:
       - name: Preparar site público
         run: |
           mkdir -p public
-          cp viradas-reacoes.js viradas-reacoes.css relogio-gols.js relogio-gols.css relogio-gols.json mando.json panorama.js panorama.css mudancas.json index.html classificacao.json projetor.html termometro.html forma.json raio-x.html raio-x.css raio-x.js raio-x.json public/
+          cp comparador-periodos.js comparador-periodos.css viradas-reacoes.js viradas-reacoes.css relogio-gols.js relogio-gols.css relogio-gols.json mando.json panorama.js panorama.css mudancas.json index.html classificacao.json projetor.html termometro.html forma.json raio-x.html raio-x.css raio-x.js raio-x.json public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
