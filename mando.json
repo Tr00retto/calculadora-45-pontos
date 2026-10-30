@@ -1,0 +1,448 @@
+{
+  "season": 2026,
+  "fetchedAt": "2026-10-30T14:20:15.069245+00:00",
+  "sourceUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A",
+  "license": "CC BY-SA 4.0",
+  "teams": [
+    {
+      "id": 134,
+      "name": "Athletico Paranaense",
+      "home": {
+        "played": 16,
+        "points": 32,
+        "wins": 9,
+        "draws": 5,
+        "losses": 2,
+        "goalsFor": 27,
+        "goalsAgainst": 15
+      },
+      "away": {
+        "played": 17,
+        "points": 22,
+        "wins": 6,
+        "draws": 4,
+        "losses": 7,
+        "goalsFor": 23,
+        "goalsAgainst": 25
+      }
+    },
+    {
+      "id": 1062,
+      "name": "Atlético Mineiro",
+      "home": {
+        "played": 17,
+        "points": 35,
+        "wins": 10,
+        "draws": 5,
+        "losses": 2,
+        "goalsFor": 27,
+        "goalsAgainst": 18
+      },
+      "away": {
+        "played": 16,
+        "points": 15,
+        "wins": 4,
+        "draws": 3,
+        "losses": 9,
+        "goalsFor": 17,
+        "goalsAgainst": 21
+      }
+    },
+    {
+      "id": 118,
+      "name": "Bahia",
+      "home": {
+        "played": 17,
+        "points": 30,
+        "wins": 8,
+        "draws": 6,
+        "losses": 3,
+        "goalsFor": 26,
+        "goalsAgainst": 19
+      },
+      "away": {
+        "played": 16,
+        "points": 23,
+        "wins": 6,
+        "draws": 5,
+        "losses": 5,
+        "goalsFor": 22,
+        "goalsAgainst": 23
+      }
+    },
+    {
+      "id": 120,
+      "name": "Botafogo",
+      "home": {
+        "played": 16,
+        "points": 24,
+        "wins": 6,
+        "draws": 6,
+        "losses": 4,
+        "goalsFor": 26,
+        "goalsAgainst": 22
+      },
+      "away": {
+        "played": 17,
+        "points": 15,
+        "wins": 4,
+        "draws": 3,
+        "losses": 10,
+        "goalsFor": 19,
+        "goalsAgainst": 31
+      }
+    },
+    {
+      "id": 132,
+      "name": "Chapecoense",
+      "home": {
+        "played": 15,
+        "points": 14,
+        "wins": 3,
+        "draws": 5,
+        "losses": 7,
+        "goalsFor": 21,
+        "goalsAgainst": 34
+      },
+      "away": {
+        "played": 17,
+        "points": 7,
+        "wins": 1,
+        "draws": 4,
+        "losses": 12,
+        "goalsFor": 11,
+        "goalsAgainst": 32
+      }
+    },
+    {
+      "id": 131,
+      "name": "Corinthians",
+      "home": {
+        "played": 16,
+        "points": 19,
+        "wins": 5,
+        "draws": 4,
+        "losses": 7,
+        "goalsFor": 16,
+        "goalsAgainst": 17
+      },
+      "away": {
+        "played": 16,
+        "points": 14,
+        "wins": 3,
+        "draws": 5,
+        "losses": 8,
+        "goalsFor": 18,
+        "goalsAgainst": 25
+      }
+    },
+    {
+      "id": 147,
+      "name": "Coritiba",
+      "home": {
+        "played": 16,
+        "points": 20,
+        "wins": 5,
+        "draws": 5,
+        "losses": 6,
+        "goalsFor": 20,
+        "goalsAgainst": 21
+      },
+      "away": {
+        "played": 16,
+        "points": 19,
+        "wins": 5,
+        "draws": 4,
+        "losses": 7,
+        "goalsFor": 18,
+        "goalsAgainst": 29
+      }
+    },
+    {
+      "id": 135,
+      "name": "Cruzeiro",
+      "home": {
+        "played": 16,
+        "points": 31,
+        "wins": 9,
+        "draws": 4,
+        "losses": 3,
+        "goalsFor": 27,
+        "goalsAgainst": 16
+      },
+      "away": {
+        "played": 17,
+        "points": 26,
+        "wins": 8,
+        "draws": 2,
+        "losses": 7,
+        "goalsFor": 25,
+        "goalsAgainst": 30
+      }
+    },
+    {
+      "id": 127,
+      "name": "Flamengo",
+      "home": {
+        "played": 16,
+        "points": 39,
+        "wins": 12,
+        "draws": 3,
+        "losses": 1,
+        "goalsFor": 32,
+        "goalsAgainst": 12
+      },
+      "away": {
+        "played": 17,
+        "points": 34,
+        "wins": 10,
+        "draws": 4,
+        "losses": 3,
+        "goalsFor": 36,
+        "goalsAgainst": 16
+      }
+    },
+    {
+      "id": 124,
+      "name": "Fluminense",
+      "home": {
+        "played": 17,
+        "points": 39,
+        "wins": 12,
+        "draws": 3,
+        "losses": 2,
+        "goalsFor": 31,
+        "goalsAgainst": 17
+      },
+      "away": {
+        "played": 16,
+        "points": 15,
+        "wins": 3,
+        "draws": 6,
+        "losses": 7,
+        "goalsFor": 21,
+        "goalsAgainst": 25
+      }
+    },
+    {
+      "id": 130,
+      "name": "Grêmio",
+      "home": {
+        "played": 17,
+        "points": 29,
+        "wins": 8,
+        "draws": 5,
+        "losses": 4,
+        "goalsFor": 27,
+        "goalsAgainst": 21
+      },
+      "away": {
+        "played": 16,
+        "points": 8,
+        "wins": 1,
+        "draws": 5,
+        "losses": 10,
+        "goalsFor": 10,
+        "goalsAgainst": 23
+      }
+    },
+    {
+      "id": 119,
+      "name": "Internacional",
+      "home": {
+        "played": 16,
+        "points": 20,
+        "wins": 5,
+        "draws": 5,
+        "losses": 6,
+        "goalsFor": 21,
+        "goalsAgainst": 17
+      },
+      "away": {
+        "played": 17,
+        "points": 15,
+        "wins": 3,
+        "draws": 6,
+        "losses": 8,
+        "goalsFor": 16,
+        "goalsAgainst": 25
+      }
+    },
+    {
+      "id": 7848,
+      "name": "Mirassol",
+      "home": {
+        "played": 17,
+        "points": 27,
+        "wins": 7,
+        "draws": 6,
+        "losses": 4,
+        "goalsFor": 24,
+        "goalsAgainst": 22
+      },
+      "away": {
+        "played": 15,
+        "points": 10,
+        "wins": 2,
+        "draws": 4,
+        "losses": 9,
+        "goalsFor": 13,
+        "goalsAgainst": 23
+      }
+    },
+    {
+      "id": 121,
+      "name": "Palmeiras",
+      "home": {
+        "played": 16,
+        "points": 39,
+        "wins": 12,
+        "draws": 3,
+        "losses": 1,
+        "goalsFor": 30,
+        "goalsAgainst": 10
+      },
+      "away": {
+        "played": 17,
+        "points": 31,
+        "wins": 8,
+        "draws": 7,
+        "losses": 2,
+        "goalsFor": 26,
+        "goalsAgainst": 12
+      }
+    },
+    {
+      "id": 794,
+      "name": "Red Bull Bragantino",
+      "home": {
+        "played": 16,
+        "points": 27,
+        "wins": 8,
+        "draws": 3,
+        "losses": 5,
+        "goalsFor": 27,
+        "goalsAgainst": 17
+      },
+      "away": {
+        "played": 17,
+        "points": 17,
+        "wins": 4,
+        "draws": 5,
+        "losses": 8,
+        "goalsFor": 15,
+        "goalsAgainst": 21
+      }
+    },
+    {
+      "id": 1198,
+      "name": "Remo",
+      "home": {
+        "played": 17,
+        "points": 19,
+        "wins": 4,
+        "draws": 7,
+        "losses": 6,
+        "goalsFor": 22,
+        "goalsAgainst": 22
+      },
+      "away": {
+        "played": 16,
+        "points": 10,
+        "wins": 2,
+        "draws": 4,
+        "losses": 10,
+        "goalsFor": 14,
+        "goalsAgainst": 29
+      }
+    },
+    {
+      "id": 128,
+      "name": "Santos",
+      "home": {
+        "played": 17,
+        "points": 25,
+        "wins": 6,
+        "draws": 7,
+        "losses": 4,
+        "goalsFor": 23,
+        "goalsAgainst": 21
+      },
+      "away": {
+        "played": 16,
+        "points": 22,
+        "wins": 6,
+        "draws": 4,
+        "losses": 6,
+        "goalsFor": 26,
+        "goalsAgainst": 26
+      }
+    },
+    {
+      "id": 126,
+      "name": "São Paulo",
+      "home": {
+        "played": 16,
+        "points": 33,
+        "wins": 10,
+        "draws": 3,
+        "losses": 3,
+        "goalsFor": 25,
+        "goalsAgainst": 13
+      },
+      "away": {
+        "played": 17,
+        "points": 10,
+        "wins": 2,
+        "draws": 4,
+        "losses": 11,
+        "goalsFor": 14,
+        "goalsAgainst": 26
+      }
+    },
+    {
+      "id": 133,
+      "name": "Vasco da Gama",
+      "home": {
+        "played": 17,
+        "points": 27,
+        "wins": 8,
+        "draws": 3,
+        "losses": 6,
+        "goalsFor": 25,
+        "goalsAgainst": 24
+      },
+      "away": {
+        "played": 15,
+        "points": 11,
+        "wins": 2,
+        "draws": 5,
+        "losses": 8,
+        "goalsFor": 15,
+        "goalsAgainst": 25
+      }
+    },
+    {
+      "id": 136,
+      "name": "Vitória",
+      "home": {
+        "played": 16,
+        "points": 32,
+        "wins": 10,
+        "draws": 2,
+        "losses": 4,
+        "goalsFor": 23,
+        "goalsAgainst": 13
+      },
+      "away": {
+        "played": 16,
+        "points": 6,
+        "wins": 0,
+        "draws": 6,
+        "losses": 10,
+        "goalsFor": 12,
+        "goalsAgainst": 33
+      }
+    }
+  ]
+}

@@ -24,3 +24,29 @@ el.innerHTML=`<p><strong>Balanço da ${esc(round.number)}ª rodada</strong> · $
 goals();day();
 })();
 
+/* Comparador por mando: usa a campanha completa, independente das simulações. */
+(async function(){
+'use strict';
+const host=document.getElementById('mando-content');
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const num=n=>n.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
+const avg=(s,key)=>s.played?s[key]/s.played:null;
+try{
+const response=await fetch('./mando.json',{cache:'no-store'});if(!response.ok)throw Error();
+const data=await response.json();
+const fields=['played','points','wins','draws','losses','goalsFor','goalsAgainst'];
+if(data.teams?.length!==20||!data.teams.every(t=>['home','away'].every(v=>fields.every(k=>Number.isInteger(t[v]?.[k])&&t[v][k]>=0)&&t[v].played===t[v].wins+t[v].draws+t[v].losses&&t[v].points===3*t[v].wins+t[v].draws)))throw Error();
+const teams=[...data.teams].sort((a,b)=>a.name.localeCompare(b.name,'pt-BR'));
+host.innerHTML=`<p class="small">Última consulta: ${esc(new Date(data.fetchedAt).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo'}))} (Brasília).${Date.now()-Date.parse(data.fetchedAt)>36*3600000?' Atenção: dados há mais de 36 horas sem atualização.':''}</p><label class="mando-picker">Escolha o time<select id="mando-team">${teams.map(t=>`<option value="${t.id}">${esc(t.name)}</option>`).join('')}</select></label><div id="mando-result" aria-live="polite"></div><p class="small">Campanha completa da Série A 2026 na última consulta. Pontos por jogo = pontos ÷ partidas; aproveitamento = pontos ÷ (3 × partidas). A conclusão compara pontos por jogo, sem prever resultados. Mando segue o registro da partida, mesmo em campo neutro. Fonte: <a href="${esc(data.sourceUrl)}">Wikipédia, matriz de resultados e classificação</a> (CC BY-SA 4.0). Pode haver atraso após os jogos. Simulações da calculadora não alteram estes números.</p>`;
+const select=document.getElementById('mando-team');
+function render(){
+const t=teams.find(t=>String(t.id)===select.value),h=t.home,a=t.away;
+const hp=avg(h,'points'),ap=avg(a,'points'),delta=hp===null||ap===null?null:hp-ap;
+const badge=typeof badges!=='undefined'&&badges[t.id]?`<img src="${badges[t.id]}" alt="" width="44" height="44">`:'';
+const verdict=delta===null?'Ainda faltam jogos em um dos mandos para comparar.':Math.abs(delta)<1e-9?'Mesmo rendimento em casa e fora.':`Rende mais ${delta>0?'em casa':'fora de casa'}.`;
+const metrics=[['Jogos disputados',s=>s.played],['Pontos conquistados',s=>s.points],['Pontos por jogo',s=>s.played?num(avg(s,'points')):'—'],['Aproveitamento',s=>s.played?num(100*s.points/(3*s.played))+'%':'—'],['Vitórias',s=>s.wins],['Empates',s=>s.draws],['Derrotas',s=>s.losses],['Gols marcados',s=>s.goalsFor],['Gols marcados por jogo',s=>s.played?num(avg(s,'goalsFor')):'—'],['Gols sofridos',s=>s.goalsAgainst],['Gols sofridos por jogo',s=>s.played?num(avg(s,'goalsAgainst')):'—'],['Saldo de gols',s=>s.goalsFor-s.goalsAgainst]];
+document.getElementById('mando-result').innerHTML=`<h3 class="mando-club">${badge}${esc(t.name)}</h3><div class="mando-verdict"><strong>${verdict}</strong>${delta!==null?`<span>${num(hp)} ponto(s)/jogo em casa · ${num(ap)} fora.${Math.abs(delta)>1e-9?' Diferença: '+num(Math.abs(delta))+' ponto(s) por jogo.':''}</span>`:''}</div><div class="mando-bars">${[['Casa',h],['Fora',a]].map(([label,s])=>`<div><span>${label}</span><div class="track"><div class="bar" style="width:${s.played?100*s.points/(3*s.played):0}%;background:${label==='Casa'?'#e8bd65':'#77baff'}"></div></div><b>${s.played?num(100*s.points/(3*s.played))+'%':'—'}</b></div>`).join('')}</div><div class="day-scroll"><table class="day-table mando-table"><caption>Desempenho como mandante e visitante</caption><thead><tr><th scope="col">Indicador</th><th scope="col">Em casa</th><th scope="col">Fora</th></tr></thead><tbody>${metrics.map(([label,value])=>`<tr><th scope="row">${label}</th><td>${value(h)}</td><td>${value(a)}</td></tr>`).join('')}</tbody></table></div>`;
+}
+select.onchange=render;render();
+}catch{host.textContent='Comparação por mando indisponível nesta consulta. Recarregue a página para tentar novamente.';}
+})();
