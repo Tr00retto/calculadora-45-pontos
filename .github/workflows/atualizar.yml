@@ -9,6 +9,9 @@ on:
       - index.html
       - panorama.js
       - panorama.css
+      - relogio-gols.js
+      - relogio-gols.css
+      - relogio-gols.json
       - mando.json
       - mudancas.json
       - classificacao.json
@@ -44,13 +47,18 @@ jobs:
         with:
           python-version: '3.12'
       - name: Validar comparação por rodada
-        run: python -m unittest discover -s tests -v
+        run: |
+          python -m unittest discover -s tests -v
+          node --check relogio-gols.js
+          node tests/test_goal_clock.js
       - name: Consultar classificação pública
         run: python scripts/update-standings.py
       - name: Consultar forma do Brasileirão
         run: python scripts/update-form.py
       - name: Consultar campanha por mando
         run: python scripts/update-mando.py
+      - name: Consultar minutos dos gols
+        run: python scripts/update-goal-clock.py
       - name: Consultar calendário e força dos adversários
         run: python scripts/update-raiox.py
       - name: Registrar comparação da rodada
@@ -59,7 +67,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add mando.json classificacao.json forma.json raio-x.json mudancas.json
+          git add relogio-gols.json mando.json classificacao.json forma.json raio-x.json mudancas.json
           if ! git diff --cached --quiet; then
             git commit -m "Atualiza classificação pela fonte pública"
             git push
@@ -68,7 +76,7 @@ jobs:
       - name: Preparar site público
         run: |
           mkdir -p public
-          cp mando.json panorama.js panorama.css mudancas.json index.html classificacao.json projetor.html termometro.html forma.json raio-x.html raio-x.css raio-x.js raio-x.json public/
+          cp relogio-gols.js relogio-gols.css relogio-gols.json mando.json panorama.js panorama.css mudancas.json index.html classificacao.json projetor.html termometro.html forma.json raio-x.html raio-x.css raio-x.js raio-x.json public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
