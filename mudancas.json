@@ -1,7 +1,7 @@
 {
   "current": {
-    "date": "2026-10-30",
-    "fetchedAt": "2026-10-31T01:04:52.777381+00:00",
+    "date": "2026-10-31",
+    "fetchedAt": "2026-10-31T07:00:09.230109+00:00",
     "teams": [
       {
         "id": 127,
@@ -126,8 +126,8 @@
     ]
   },
   "before": {
-    "date": "2026-10-29",
-    "fetchedAt": "2026-10-30T01:58:14.345687+00:00",
+    "date": "2026-10-30",
+    "fetchedAt": "2026-10-31T01:04:52.777381+00:00",
     "teams": [
       {
         "id": 127,
@@ -148,14 +148,14 @@
         "played": 33
       },
       {
-        "id": 134,
-        "name": "Athletico Paranaense",
-        "points": 54,
-        "played": 32
-      },
-      {
         "id": 124,
         "name": "Fluminense",
+        "points": 54,
+        "played": 33
+      },
+      {
+        "id": 134,
+        "name": "Athletico Paranaense",
         "points": 54,
         "played": 33
       },
@@ -214,28 +214,28 @@
         "played": 32
       },
       {
+        "id": 130,
+        "name": "Grêmio",
+        "points": 37,
+        "played": 33
+      },
+      {
         "id": 7848,
         "name": "Mirassol",
         "points": 37,
-        "played": 32
+        "played": 33
+      },
+      {
+        "id": 131,
+        "name": "Corinthians",
+        "points": 36,
+        "played": 33
       },
       {
         "id": 119,
         "name": "Internacional",
         "points": 35,
         "played": 33
-      },
-      {
-        "id": 130,
-        "name": "Grêmio",
-        "points": 34,
-        "played": 32
-      },
-      {
-        "id": 131,
-        "name": "Corinthians",
-        "points": 33,
-        "played": 32
       },
       {
         "id": 1198,
@@ -1013,8 +1013,8 @@
       ]
     },
     {
-      "date": "2026-10-30",
-      "fetchedAt": "2026-10-31T01:04:52.777381+00:00",
+      "date": "2026-10-31",
+      "fetchedAt": "2026-10-31T07:00:09.230109+00:00",
       "teams": [
         {
           "id": 127,

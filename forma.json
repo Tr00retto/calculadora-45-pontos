@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-31T01:04:55.462750+00:00",
+  "fetchedAt": "2026-10-31T07:00:11.974023+00:00",
   "sourceUrl": "https://www.flashscore.com.br/futebol/brasil/brasileirao-serie-a/classificacao/hdLUdQGi/forma/geral/5/",
   "teams": [
     {
@@ -1852,10 +1852,23 @@
       "id": 7848,
       "name": "Mirassol",
       "points": 37,
-      "played": 32,
-      "lastMatchId": "lQzFjYfB",
-      "lastMatchDate": 1792870200000,
+      "played": 33,
+      "lastMatchId": "OGSP4OFL",
+      "lastMatchDate": 1793401200000,
       "recent": [
+        {
+          "id": "OGSP4OFL",
+          "date": 1793401200000,
+          "home": "Corinthians",
+          "away": "Mirassol",
+          "hg": 2,
+          "ag": 0,
+          "round": "Rodada 33",
+          "points": 0,
+          "opponent": "Corinthians",
+          "venue": "Fora",
+          "score": "0–2"
+        },
         {
           "id": "lQzFjYfB",
           "date": 1792870200000,
@@ -1972,23 +1985,10 @@
           "opponent": "Palmeiras",
           "venue": "Casa",
           "score": "1–1"
-        },
-        {
-          "id": "06m2sLbE",
-          "date": 1787520600000,
-          "home": "Santos",
-          "away": "Mirassol",
-          "hg": 1,
-          "ag": 1,
-          "round": "Rodada 24",
-          "points": 1,
-          "opponent": "Santos",
-          "venue": "Fora",
-          "score": "1–1"
         }
       ],
       "goalsFor": 37,
-      "goalsAgainst": 45
+      "goalsAgainst": 47
     },
     {
       "id": 133,
@@ -2135,11 +2135,24 @@
     {
       "id": 131,
       "name": "Corinthians",
-      "points": 33,
-      "played": 32,
-      "lastMatchId": "jV8lzDAU",
-      "lastMatchDate": 1792877400000,
+      "points": 36,
+      "played": 33,
+      "lastMatchId": "OGSP4OFL",
+      "lastMatchDate": 1793401200000,
       "recent": [
+        {
+          "id": "OGSP4OFL",
+          "date": 1793401200000,
+          "home": "Corinthians",
+          "away": "Mirassol",
+          "hg": 2,
+          "ag": 0,
+          "round": "Rodada 33",
+          "points": 3,
+          "opponent": "Mirassol",
+          "venue": "Casa",
+          "score": "2–0"
+        },
         {
           "id": "jV8lzDAU",
           "date": 1792877400000,
@@ -2256,22 +2269,9 @@
           "opponent": "Coritiba",
           "venue": "Fora",
           "score": "1–2"
-        },
-        {
-          "id": "ClafqMC4",
-          "date": 1786919400000,
-          "home": "Corinthians",
-          "away": "Cruzeiro",
-          "hg": 1,
-          "ag": 2,
-          "round": "Rodada 23",
-          "points": 0,
-          "opponent": "Cruzeiro",
-          "venue": "Casa",
-          "score": "1–2"
         }
       ],
-      "goalsFor": 34,
+      "goalsFor": 36,
       "goalsAgainst": 42
     },
     {
