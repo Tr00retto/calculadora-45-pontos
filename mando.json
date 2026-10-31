@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "fetchedAt": "2026-10-30T21:31:55.031482+00:00",
+  "fetchedAt": "2026-10-31T01:04:55.747590+00:00",
   "sourceUrl": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A",
   "license": "CC BY-SA 4.0",
   "teams": [
@@ -118,12 +118,12 @@
       "id": 131,
       "name": "Corinthians",
       "home": {
-        "played": 16,
-        "points": 19,
-        "wins": 5,
+        "played": 17,
+        "points": 22,
+        "wins": 6,
         "draws": 4,
         "losses": 7,
-        "goalsFor": 16,
+        "goalsFor": 18,
         "goalsAgainst": 17
       },
       "away": {
@@ -281,13 +281,13 @@
         "goalsAgainst": 22
       },
       "away": {
-        "played": 15,
+        "played": 16,
         "points": 10,
         "wins": 2,
         "draws": 4,
-        "losses": 9,
+        "losses": 10,
         "goalsFor": 13,
-        "goalsAgainst": 23
+        "goalsAgainst": 25
       }
     },
     {
